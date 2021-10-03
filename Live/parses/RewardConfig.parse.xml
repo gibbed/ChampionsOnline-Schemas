@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="RewardConfig">
+  <table>
+    <column name="RewardConfig" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Modifications" type="EMBEDDEDSTRUCT">
+      <offset>0</offset>
+      <subtable external="RewardModifications" />
+    </column>
+    <column name="MissionMods" type="EMBEDDEDSTRUCT">
+      <offset>40</offset>
+      <subtable external="MissionMods" />
+    </column>
+    <column name="TeamMods" type="EMBEDDEDSTRUCT">
+      <offset>68</offset>
+      <subtable external="TeamMods" />
+    </column>
+    <column name="RecruitMods" type="EMBEDDEDSTRUCT">
+      <offset>88</offset>
+      <subtable external="RecruitMods" />
+    </column>
+    <column name="OriginMappings" type="EMBEDDEDSTRUCT">
+      <offset>96</offset>
+      <subtable external="OriginToPickupTypeMappings" />
+    </column>
+    <column name="TypeCostumeMappings" type="EMBEDDEDSTRUCT">
+      <offset>100</offset>
+      <subtable external="TypeToCostumeMappings" />
+    </column>
+    <column name="IgnoreSubRank" type="U8">
+      <offset>108</offset>
+    </column>
+    <column name="ComputeRewardQuality" type="U8">
+      <offset>109</offset>
+    </column>
+    <column name="lifetimeRewards" type="EMBEDDEDSTRUCT">
+      <offset>112</offset>
+      <subtable external="LifetimeRewardsInfo" />
+    </column>
+    <column name="LifetimeRewardsList" type="STRUCT">
+      <offset>116</offset>
+      <subtable external="LifetimeRewardsInfo" />
+    </column>
+    <column name="NumericsNotGivenToWholeTeam" type="STRINGARRAY">
+      <offset>120</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="GiftData" type="EMBEDDEDSTRUCT">
+      <offset>124</offset>
+      <subtable external="ExperienceGift" />
+    </column>
+    <column name="RewardGateInfo" type="STRUCT">
+      <offset>136</offset>
+      <subtable external="RewardGatedInfo" />
+    </column>
+    <column name="BlockRegionTables" type="STRUCT">
+      <offset>140</offset>
+      <subtable external="RewardBlockRegionTable" />
+    </column>
+    <column name="RoundRobinEachKill" type="BIT">
+      <offset>144</offset>
+      <bit_offset>65536</bit_offset>
+    </column>
+    <column name="ShareLootedNumericsWithTeamMembers" type="BIT">
+      <offset>144</offset>
+      <bit_offset>65537</bit_offset>
+    </column>
+    <column name="BlockRewardPackClientSend" type="BIT">
+      <offset>144</offset>
+      <bit_offset>65538</bit_offset>
+    </column>
+    <column name="NoDeathPenaltyInPowerHouse" type="BIT">
+      <offset>144</offset>
+      <bit_offset>65539</bit_offset>
+    </column>
+    <column name="LootEntsAlwaysAutoLoot" type="BIT">
+      <offset>144</offset>
+      <bit_offset>65540</bit_offset>
+    </column>
+    <column name="MaxOverflowAllowed" type="INT">
+      <offset>148</offset>
+    </column>
+    <column name="AllowOneItemNoWeightTable" type="IGNORE" />
+    <column name="}" type="END" />
+  </table>
+</parse>

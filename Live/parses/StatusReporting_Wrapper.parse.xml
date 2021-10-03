@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="StatusReporting_Wrapper">
+  <table>
+    <column name="StatusReporting_Wrapper" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="MyName" type="STRING">
+      <offset>0</offset>
+    </column>
+    <column name="MyType" type="INT">
+      <offset>4</offset>
+      <static_define_list external="GlobalType" />
+    </column>
+    <column name="MyID" type="INT">
+      <offset>8</offset>
+    </column>
+    <column name="MyProduct" type="STRING">
+      <offset>12</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="MyShortProduct" type="STRING">
+      <offset>16</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="MyMainMonitoringPort" type="INT">
+      <offset>20</offset>
+    </column>
+    <column name="MyGenericMonitoringPort" type="INT">
+      <offset>24</offset>
+    </column>
+    <column name="MyMachineName" type="STRING">
+      <offset>28</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="MyShardName" type="STRING">
+      <offset>32</offset>
+    </column>
+    <column name="MyClusterName" type="STRING">
+      <offset>36</offset>
+    </column>
+    <column name="MyOverlord" type="STRING">
+      <offset>40</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="MyPID" type="INT">
+      <offset>44</offset>
+    </column>
+    <column name="MyExeName" type="STRING">
+      <offset>48</offset>
+    </column>
+    <column name="Version" type="STRING">
+      <offset>52</offset>
+    </column>
+    <column name="Status" type="EMBEDDEDSTRUCT">
+      <offset>56</offset>
+      <subtable external="StatusReporting_GenericServerStatus" />
+    </column>
+    <column name="FixedNameValuePairs" type="OPTIONALSTRUCT">
+      <offset>84</offset>
+      <subtable external="NameValuePairList" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>

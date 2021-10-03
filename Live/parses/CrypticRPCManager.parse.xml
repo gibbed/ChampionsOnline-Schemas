@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="CrypticRPCManager">
+  <table>
+    <column name="CrypticRPCManager" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="publicManager" type="EMBEDDEDSTRUCT">
+      <offset>0</offset>
+      <subtable external="CrypticRPCManager_Public" />
+    </column>
+    <column name="LinkGlobalName" type="STRING">
+      <offset>36</offset>
+      <flags>
+        <flag>KEY</flag>
+      </flags>
+    </column>
+    <column name="SessionID" type="INT">
+      <offset>40</offset>
+    </column>
+    <column name="siNextRequestID" type="INT64">
+      <offset>48</offset>
+    </column>
+    <column name="SentRequests" type="STRUCT">
+      <offset>56</offset>
+      <subtable external="CrypticRPCCachedRequest" />
+    </column>
+    <column name="LastLinkID" type="INT">
+      <offset>60</offset>
+    </column>
+    <column name="RemoteSessionID" type="INT">
+      <offset>64</offset>
+    </column>
+    <column name="SentResponses" type="STRUCT">
+      <offset>68</offset>
+      <subtable external="CrypticRPCResponse" />
+    </column>
+    <column name="OutOfOrderRequests" type="STRUCT">
+      <offset>72</offset>
+      <subtable external="CrypticRPCRequest" />
+    </column>
+    <column name="siHighestRequestIDBegunProcessing" type="INT64">
+      <offset>80</offset>
+    </column>
+    <column name="siLastTimeSentStatus" type="INT">
+      <offset>88</offset>
+    </column>
+    <column name="uThreadID" type="INT">
+      <offset>92</offset>
+    </column>
+    <column name="MaxUnsentRequests" type="INT">
+      <offset>132</offset>
+    </column>
+    <column name="RequestsThatMightTimeout" type="STRUCT">
+      <offset>144</offset>
+      <subtable external="CrypticRPCRequestsThatWillTimeoutAtAGivenTime" />
+    </column>
+    <column name="LastCheckUnsentRequestsForTimeoutTime" type="INT">
+      <offset>148</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>

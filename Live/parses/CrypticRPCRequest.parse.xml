@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="CrypticRPCRequest">
+  <table>
+    <column name="CrypticRPCRequest" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="CommandName" type="STRING">
+      <offset>0</offset>
+    </column>
+    <column name="RequestID" type="INT64">
+      <offset>8</offset>
+      <flags>
+        <flag>KEY</flag>
+      </flags>
+    </column>
+    <column name="SenderLocalID" type="INT">
+      <offset>16</offset>
+    </column>
+    <column name="RequestedAccessLevel" type="INT">
+      <offset>20</offset>
+      <default>-1</default>
+    </column>
+    <column name="Settings" type="EMBEDDEDSTRUCT">
+      <offset>24</offset>
+      <subtable external="CrypticRPCSettings" />
+    </column>
+    <column name="returnAddress" type="EMBEDDEDSTRUCT">
+      <offset>36</offset>
+      <subtable external="CrypticRPCReturnAddress" />
+    </column>
+    <column name="Flags" type="INT">
+      <offset>64</offset>
+      <static_define_list external="CrypticRPCRequestFlags" />
+    </column>
+    <column name="Args" type="STRUCT">
+      <offset>72</offset>
+      <subtable external="CrypticRPCArgument" />
+    </column>
+    <column name="NonFatalErrors" type="STRUCT">
+      <offset>76</offset>
+      <subtable external="CrypticRPCError" />
+    </column>
+    <column name="FatalErrors" type="STRUCT">
+      <offset>80</offset>
+      <subtable external="CrypticRPCError" />
+    </column>
+    <column name="StructArgs" type="STRUCT">
+      <offset>84</offset>
+      <flags>
+        <flag>NO_NETSEND</flag>
+      </flags>
+      <subtable external="CrypticRPCStructArg" />
+    </column>
+    <column name="Manager" type="OPTIONALSTRUCT">
+      <offset>88</offset>
+      <flags>
+        <flag>UNOWNED</flag>
+        <flag>STRUCT_NORECURSE</flag>
+      </flags>
+      <subtable external="CrypticRPCManager" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="UIGenLayoutBoxState">
+  <table>
+    <column name="UIGenLayoutBoxState" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Type" type="INT">
+      <offset>0</offset>
+      <flags>
+        <flag>OBJECTTYPE</flag>
+      </flags>
+      <default>12</default>
+      <static_define_list external="UIGenType" />
+    </column>
+    <column name="Instances" type="STRUCT">
+      <offset>4</offset>
+      <flags>
+        <flag>STRUCT_NORECURSE</flag>
+        <flag>NO_INDEX</flag>
+      </flags>
+      <subtable external="UIGenLayoutBoxInstance" />
+    </column>
+    <column name="Internals" type="STRUCT">
+      <offset>16</offset>
+      <subtable external="UIGenNamedInternal" />
+    </column>
+    <column name="LayoutDirection" type="U8">
+      <offset>24</offset>
+    </column>
+    <column name="Selected" type="INT">
+      <offset>28</offset>
+      <default>-9999</default>
+    </column>
+    <column name="Rows" type="INT16">
+      <offset>32</offset>
+    </column>
+    <column name="Columns" type="INT16">
+      <offset>34</offset>
+    </column>
+    <column name="BoundWidth" type="F32">
+      <offset>36</offset>
+    </column>
+    <column name="BoundHeight" type="F32">
+      <offset>40</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>
