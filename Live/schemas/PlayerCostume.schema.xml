@@ -181,6 +181,14 @@
     <column name="CostumeChangeAlwaysSaveSequencersIfSkelsMatch" type="U8">
       <offset>75</offset>
     </column>
+    <column name="Transition" type="REFERENCE">
+      <offset>76</offset>
+      <flags>
+        <flag>SUBSCRIBE</flag>
+        <flag>PERSIST</flag>
+      </flags>
+      <dictionary_name>CostumeTransition</dictionary_name>
+    </column>
     <column name="bCapsuleCollisionsUseMovementOrientation" type="IGNORE" />
     <column name="Tags" type="IGNORE" />
     <column name="UGCProperties" type="IGNORE">

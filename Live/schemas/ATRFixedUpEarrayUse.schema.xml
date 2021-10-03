@@ -27,7 +27,7 @@
     <column name="SVal" type="STRING">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="Comment" type="STRING">

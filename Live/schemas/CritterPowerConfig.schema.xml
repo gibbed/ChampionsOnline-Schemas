@@ -17,7 +17,7 @@
     <column name="Name" type="REFERENCE">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
       </flags>
       <redundant_name>Power</redundant_name>
@@ -38,7 +38,7 @@
     <column name="AIPreferedMinRange" type="F32">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AIPreferredMinRange</redundant_name>
     </column>
@@ -48,7 +48,7 @@
     <column name="AIPreferedMaxRange" type="F32">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AIPreferredMaxRange</redundant_name>
     </column>
@@ -63,7 +63,7 @@
     <column name="AIWeightModifier" type="OPTIONALSTRUCT">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AIWeightModifier</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -84,7 +84,7 @@
     <column name="AIChainRequires" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AIChainRequiresBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -96,7 +96,7 @@
     <column name="AIEndCondition" type="OPTIONALSTRUCT">
       <offset>40</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AIEndConditionBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -108,7 +108,7 @@
     <column name="AIRequires" type="OPTIONALSTRUCT">
       <offset>44</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AIRequiresBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -120,7 +120,7 @@
     <column name="AITargetOverride" type="OPTIONALSTRUCT">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AITargetOverrideBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -132,7 +132,7 @@
     <column name="AICureRequires" type="OPTIONALSTRUCT">
       <offset>52</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AICureRequiresBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -174,7 +174,7 @@
     <column name="AddPowerRequires" type="OPTIONALSTRUCT">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AddPowerRequiresBlock</redundant_name>
       <subtable external="Expression_StructParam" />

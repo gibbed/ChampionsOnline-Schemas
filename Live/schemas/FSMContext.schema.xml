@@ -10,14 +10,14 @@
     <column name="oldTracker" type="OPTIONALSTRUCT">
       <offset>28</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="FSMStateTrackerEntry" />
     </column>
     <column name="curTracker" type="OPTIONALSTRUCT">
       <offset>32</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="FSMStateTrackerEntry" />
     </column>

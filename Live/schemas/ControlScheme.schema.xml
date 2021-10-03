@@ -163,7 +163,7 @@
     <column name="bDisableFaceTarget" type="U8">
       <offset>50</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>USEROPTIONBIT_1</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -416,7 +416,7 @@
     <column name="CamDistance" type="F32">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>USEROPTIONBIT_1</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -426,7 +426,7 @@
     <column name="fCamDistance" type="F32">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>USEROPTIONBIT_1</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -467,7 +467,7 @@
     <column name="iCamHeight" type="F32">
       <offset>100</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
       </flags>
@@ -643,7 +643,7 @@
     <column name="ppchAllowedKeyProfiles" type="STRINGARRAY">
       <offset>156</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AllowKeyProfile</redundant_name>
     </column>
@@ -654,7 +654,7 @@
     <column name="peAllowedAutoAttackTypes" type="INTARRAY">
       <offset>160</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AllowAutoAttackType</redundant_name>
       <static_define_list external="AutoAttackType" />

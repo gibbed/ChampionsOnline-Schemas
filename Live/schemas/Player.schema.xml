@@ -59,7 +59,7 @@
       <offset>272</offset>
       <flags>
         <flag>PERSIST</flag>
-        <flag>SOMETIMES_TRANSACT</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
     </column>
     <column name="playerFlags" type="INT">
@@ -69,7 +69,7 @@
         <flag>PERSIST</flag>
       </flags>
       <static_define_list external="GlobalPlayerFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="PlayerType" type="INT">
       <offset>280</offset>
@@ -157,7 +157,7 @@
     <column name="pProgressionInfo" type="OPTIONALSTRUCT">
       <offset>320</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>ALWAYS_ALLOC</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_AND_TEAM_ONLY</flag>
@@ -198,7 +198,7 @@
     <column name="eaPersistActivatedSpawns" type="STRUCT">
       <offset>332</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -607,7 +607,7 @@
     <column name="pEmail" type="OPTIONALSTRUCT">
       <offset>888</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>ALWAYS_ALLOC</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
@@ -721,7 +721,7 @@
       <flags>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
-        <flag>SOMETIMES_TRANSACT</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
       <bit_offset>65548</bit_offset>
     </column>
@@ -843,7 +843,7 @@
     <column name="pRecruitWarp" type="OPTIONALSTRUCT">
       <offset>956</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -854,7 +854,7 @@
     <column name="RecruitWarp" type="OPTIONALSTRUCT">
       <offset>956</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -1019,6 +1019,32 @@
         <flag>PERSIST</flag>
       </flags>
       <subtable external="UGCSubscription" />
+    </column>
+    <column name="ContactPos" type="F32FIXEDARRAY">
+      <offset>1056</offset>
+      <flags>
+        <flag>SERVER_ONLY</flag>
+      </flags>
+      <num_elements>3</num_elements>
+    </column>
+    <column name="ContactTimeSeconds" type="INT">
+      <offset>1068</offset>
+      <flags>
+        <flag>SERVER_ONLY</flag>
+      </flags>
+    </column>
+    <column name="PlayerCostumeUnlockedTime" type="INT">
+      <offset>1072</offset>
+      <flags>
+        <flag>NO_NETSEND</flag>
+      </flags>
+    </column>
+    <column name="PlayerCostumeUnlockedList" type="STRUCT">
+      <offset>1076</offset>
+      <flags>
+        <flag>NO_NETSEND</flag>
+      </flags>
+      <subtable external="PlayerCostumeUnlocked" />
     </column>
     <column name="eaAwayTeamPetIDs" type="IGNORE" />
     <column name="eaAwayTeamCritterIDs" type="IGNORE" />

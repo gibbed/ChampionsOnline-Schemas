@@ -145,7 +145,7 @@
     <column name="Children" type="STRUCT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Child</redundant_name>
       <subtable external="UIGenChild" />
@@ -389,26 +389,26 @@
     <column name="OutdoorFogColor" type="INT">
       <offset>300</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="RoomFogColor" type="INT">
       <offset>304</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="RoomInactiveColor" type="INT">
       <offset>308</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="RoomActiveColor" type="INT">
       <offset>312</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="LabelFont" type="REFERENCE">
@@ -431,7 +431,7 @@
       <offset>328</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="Mask" type="STRING">
@@ -477,14 +477,14 @@
     <column name="UpwardIconColor" type="INT">
       <offset>360</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="DownwardIconColor" type="INT">
       <offset>364</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>

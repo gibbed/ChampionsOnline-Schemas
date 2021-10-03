@@ -10,14 +10,14 @@
     <column name="bag" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="InventoryBag" />
     </column>
     <column name="Slot" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="InventorySlot" />
     </column>

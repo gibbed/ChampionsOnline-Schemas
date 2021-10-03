@@ -37,7 +37,7 @@
     <column name="RandomRotation" type="F32">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RotationIncrement</redundant_name>
     </column>

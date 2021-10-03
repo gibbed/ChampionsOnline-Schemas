@@ -22,14 +22,14 @@
     <column name="KickLogoutTime" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MissionReturnLogoutTime</redundant_name>
     </column>
     <column name="QueueKickLogoutTime" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MissionReturnLogoutTime</redundant_name>
     </column>

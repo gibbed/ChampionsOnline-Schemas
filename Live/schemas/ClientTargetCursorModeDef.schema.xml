@@ -49,7 +49,7 @@
     <column name="hCursorPlayerSolo" type="REFERENCE">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CursorPlayerSolo</redundant_name>
       <dictionary_name>UICursor</dictionary_name>

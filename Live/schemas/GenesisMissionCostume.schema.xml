@@ -14,7 +14,7 @@
     <column name="UsePetCostume" type="INT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CostumeType</redundant_name>
       <static_define_list external="GenesisMissionCostumeType" />

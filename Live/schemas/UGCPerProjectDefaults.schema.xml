@@ -157,7 +157,7 @@
     <column name="CostumeRegionScale" type="STRUCT">
       <offset>164</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CostumeRegionDef</redundant_name>
       <subtable external="UGCCostumeRegionDef" />

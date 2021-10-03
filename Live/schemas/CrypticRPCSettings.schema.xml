@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="CrypticRPCSettings">
+  <table>
+    <column name="CrypticRPCSettings" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="ContainerTypeInShard" type="INT">
+      <offset>0</offset>
+      <static_define_list external="GlobalType" />
+    </column>
+    <column name="ContainerIDInShard" type="INT">
+      <offset>4</offset>
+    </column>
+    <column name="timeout" type="INT">
+      <offset>8</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

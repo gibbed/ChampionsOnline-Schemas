@@ -10,14 +10,14 @@
     <column name="Node" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="WorldInteractionNode" />
     </column>
     <column name="MapDisplayName" type="STRING">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="MapType" type="INT">

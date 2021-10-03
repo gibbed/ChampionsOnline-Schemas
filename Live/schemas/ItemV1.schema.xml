@@ -30,7 +30,7 @@
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
-        <flag>SOMETIMES_TRANSACT</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
     </column>
     <column name="fDurabilityMax" type="F32">
@@ -68,7 +68,7 @@
     <column name="iNumericValue" type="INT">
       <offset>28</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -102,7 +102,7 @@
     <column name="MinLevel_UseAccessor" type="U8">
       <offset>37</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -120,7 +120,7 @@
     <column name="Level_UseAccessor" type="U8">
       <offset>38</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -143,7 +143,7 @@
         <flag>PERSIST</flag>
       </flags>
       <static_define_list external="ItemFlag" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="numeric_op" type="U8">
       <offset>41</offset>
@@ -153,7 +153,7 @@
         <flag>PERSIST</flag>
       </flags>
       <static_define_list external="NumericOp" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="uSetCount" type="U8">
       <offset>42</offset>
@@ -182,7 +182,7 @@
     <column name="hCostumeRef" type="REFERENCE">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -245,7 +245,7 @@
       <offset>80</offset>
       <flags>
         <flag>PERSIST</flag>
-        <flag>SOMETIMES_TRANSACT</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
     </column>
     <column name="bWarpActive" type="BIT">

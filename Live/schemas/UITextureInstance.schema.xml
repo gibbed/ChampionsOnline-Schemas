@@ -59,75 +59,75 @@
     <column name="TopLeftColor" type="INT">
       <offset>112</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="Color" type="INT">
       <offset>112</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="TopColor" type="INT">
       <offset>112</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="LeftColor" type="INT">
       <offset>112</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="TopRightColor" type="INT">
       <offset>116</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="RightColor" type="INT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TopRightColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="BottomLeftColor" type="INT">
       <offset>120</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="BottomColor" type="INT">
       <offset>120</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BottomLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="BottomRightColor" type="INT">
       <offset>124</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="ScaleHorizontal" type="F32">
@@ -137,7 +137,7 @@
     <column name="HorizontalScale" type="F32">
       <offset>128</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ScaleHorizontal</redundant_name>
       <default>1</default>
@@ -149,7 +149,7 @@
     <column name="VerticalScale" type="F32">
       <offset>132</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ScaleVertical</redundant_name>
       <default>1</default>
@@ -175,7 +175,7 @@
     <column name="ModeVertical" type="BIT">
       <offset>148</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
       <redundant_name>VerticalMode</redundant_name>
@@ -199,7 +199,7 @@
     <column name="ModeHorizontal" type="BIT">
       <offset>148</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
       <redundant_name>HorizontalMode</redundant_name>
@@ -224,7 +224,7 @@
     <column name="ResetScale" type="BIT">
       <offset>152</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ScaleReset</redundant_name>
       <bit_offset>65544</bit_offset>
@@ -236,7 +236,7 @@
     <column name="ResetColor" type="BIT">
       <offset>152</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ColorReset</redundant_name>
       <bit_offset>65545</bit_offset>
@@ -256,7 +256,7 @@
     <column name="ResetAdditive" type="BIT">
       <offset>152</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AdditiveReset</redundant_name>
       <bit_offset>65548</bit_offset>

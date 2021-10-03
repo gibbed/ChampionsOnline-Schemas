@@ -28,7 +28,7 @@
     <column name="ExprRequiredBlock" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
       </flags>
       <redundant_name>ExprRequired</redundant_name>
@@ -37,7 +37,7 @@
     <column name="Required" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
       </flags>
       <redundant_name>ExprRequired</redundant_name>

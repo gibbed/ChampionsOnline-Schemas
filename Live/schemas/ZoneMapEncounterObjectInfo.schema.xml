@@ -53,7 +53,7 @@
     <column name="RestrictAllegiance" type="STRUCT">
       <offset>52</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Faction</redundant_name>
       <subtable external="WorldUGCFactionRestrictionProperties" />

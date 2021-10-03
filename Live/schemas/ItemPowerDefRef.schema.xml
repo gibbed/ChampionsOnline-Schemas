@@ -28,7 +28,7 @@
     <column name="hItemPowerDef" type="REFERENCE">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -52,7 +52,7 @@
     <column name="eAppliesToSlot" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AppliesToSlot</redundant_name>
       <static_define_list external="InvBagIDs" />
@@ -64,7 +64,7 @@
     <column name="peRequiredCategories" type="INTARRAY">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RequiredCategories</redundant_name>
       <static_define_list external="ItemCategory" />
@@ -75,7 +75,7 @@
     <column name="fChanceToApply" type="F32">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChanceToApply</redundant_name>
     </column>
@@ -100,7 +100,7 @@
     <column name="fGemSlottingApplyChance" type="F32">
       <offset>28</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -115,7 +115,7 @@
     <column name="uiSetMin" type="BIT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SetMin</redundant_name>
       <bit_offset>262144</bit_offset>

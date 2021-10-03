@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="CrypticRPCArgument">
+  <table>
+    <column name="CrypticRPCArgument" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="ArgName" type="STRING">
+      <offset>0</offset>
+    </column>
+    <column name="ArgType" type="INT">
+      <offset>4</offset>
+      <static_define_list external="CrypticRPCArgumentType" />
+    </column>
+    <column name="IntVal" type="INT64">
+      <offset>8</offset>
+      <format_strings>
+        <format_string name="CRYPTICRPC_SKIP_IF_SKIPPING_ARG">1</format_string>
+      </format_strings>
+    </column>
+    <column name="FloatVal" type="F32">
+      <offset>16</offset>
+      <format_strings>
+        <format_string name="CRYPTICRPC_SKIP_IF_SKIPPING_ARG">1</format_string>
+      </format_strings>
+    </column>
+    <column name="StrVal" type="STRING">
+      <offset>20</offset>
+      <format_strings>
+        <format_string name="CRYPTICRPC_SKIP_IF_SKIPPING_ARG">1</format_string>
+      </format_strings>
+    </column>
+    <column name="StructIndex" type="INT">
+      <offset>24</offset>
+      <format_strings>
+        <format_string name="CRYPTICRPC_SKIP_IF_SKIPPING_ARG">1</format_string>
+      </format_strings>
+    </column>
+    <column name="Flags" type="INT">
+      <offset>28</offset>
+      <static_define_list external="CrypticRPCArgumentFlag" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

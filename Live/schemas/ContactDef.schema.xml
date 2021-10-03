@@ -105,7 +105,7 @@
     <column name="CanInteractIf:" type="OPTIONALSTRUCT">
       <offset>96</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>CanInteractIf</redundant_name>
@@ -157,7 +157,7 @@
       <offset>140</offset>
       <flags>
         <flag>NO_TEXT_SAVE</flag>
-        <flag>USEROPTIONBIT_3</flag>
+        <flag>EDITOR_IGNORE</flag>
       </flags>
       <subtable external="ContactMissionOffer" />
     </column>
@@ -185,7 +185,7 @@
       <offset>164</offset>
       <flags>
         <flag>NO_TEXT_SAVE</flag>
-        <flag>USEROPTIONBIT_3</flag>
+        <flag>EDITOR_IGNORE</flag>
       </flags>
       <subtable external="SpecialDialogBlock" />
     </column>
@@ -197,7 +197,7 @@
       <offset>172</offset>
       <flags>
         <flag>NO_TEXT_SAVE</flag>
-        <flag>USEROPTIONBIT_3</flag>
+        <flag>EDITOR_IGNORE</flag>
       </flags>
       <subtable external="SpecialActionBlock" />
     </column>
@@ -254,7 +254,7 @@
     <column name="ContactFlags" type="INT">
       <offset>256</offset>
       <static_define_list external="ContactFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="SkillTrainerType" type="INT">
       <offset>260</offset>
@@ -263,7 +263,7 @@
     <column name="TrainerType" type="INT">
       <offset>260</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SkillTrainerType</redundant_name>
       <static_define_list external="SkillType" />
@@ -282,7 +282,7 @@
     <column name="CanAccessRemotely:" type="OPTIONALSTRUCT">
       <offset>272</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CanAccessRemotely</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -320,7 +320,7 @@
     <column name="IsCraftingStoreCollection" type="BIT">
       <offset>304</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IsResearchStoreCollection</redundant_name>
       <bit_offset>65536</bit_offset>

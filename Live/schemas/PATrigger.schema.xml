@@ -19,7 +19,7 @@
     <column name="CombatEventTracker" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="CombatEventTracker" />
     </column>

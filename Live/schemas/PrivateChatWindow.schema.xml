@@ -32,7 +32,7 @@
     <column name="uLoginServerID" type="INT">
       <offset>20</offset>
     </column>
-    <column name="ClassName" type="STRING">
+    <column name="className" type="STRING">
       <offset>24</offset>
       <flags>
         <flag>POOL_STRING</flag>

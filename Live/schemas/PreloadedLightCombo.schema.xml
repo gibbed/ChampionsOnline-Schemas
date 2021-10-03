@@ -10,37 +10,37 @@
     <column name="Light0" type="INT">
       <offset>0</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 218B0C0 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Light1" type="INT">
       <offset>4</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 218B0C0 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Light2" type="INT">
       <offset>8</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 218B0C0 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Light3" type="INT">
       <offset>12</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 218B0C0 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Light4" type="INT">
       <offset>16</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 218B0C0 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="light_mask" type="INT">
       <offset>20</offset>

@@ -19,7 +19,7 @@
       <offset>0</offset>
       <flags>
         <flag>ESTRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Name</redundant_name>
@@ -33,7 +33,7 @@
     <column name="iColor" type="INT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Color</redundant_name>

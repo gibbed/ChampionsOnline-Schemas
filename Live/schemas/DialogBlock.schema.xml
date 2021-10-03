@@ -17,7 +17,7 @@
     <column name="Condition:" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Condition</redundant_name>
@@ -41,7 +41,7 @@
       <offset>20</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Audio</redundant_name>
     </column>

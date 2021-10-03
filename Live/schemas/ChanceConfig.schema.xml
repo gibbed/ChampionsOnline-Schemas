@@ -14,7 +14,7 @@
     <column name="AttribHit" type="INT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AttribChancePos</redundant_name>
       <static_define_list external="AttribType" />
@@ -26,7 +26,7 @@
     <column name="AttribMiss" type="INT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AttribChanceNeg</redundant_name>
       <static_define_list external="AttribType" />

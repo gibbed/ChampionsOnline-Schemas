@@ -65,7 +65,7 @@
     <column name="EventData" type="STRUCT">
       <offset>52</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Event</redundant_name>

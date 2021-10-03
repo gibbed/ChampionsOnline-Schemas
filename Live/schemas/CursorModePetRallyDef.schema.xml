@@ -17,7 +17,7 @@
       <offset>0</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CursorModeName</redundant_name>
     </column>
@@ -31,7 +31,7 @@
       <offset>4</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CursorModeUnplaceableName</redundant_name>
     </column>
@@ -45,7 +45,7 @@
       <offset>8</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RallyDragPlacementFXName</redundant_name>
     </column>
@@ -59,7 +59,7 @@
       <offset>12</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RallyPointFXBaseName</redundant_name>
     </column>

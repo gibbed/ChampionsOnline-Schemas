@@ -23,7 +23,7 @@
         <flag>NO_TRANSACT</flag>
       </flags>
       <static_define_list external="NotifySettingFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="}" type="END" />
   </table>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="GimmeCheckinFilesRequest">
+  <table>
+    <column name="GimmeCheckinFilesRequest" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Base" type="EMBEDDEDSTRUCT">
+      <offset>0</offset>
+      <subtable external="GimmeRPCRequestBase" />
+    </column>
+    <column name="paths" type="STRINGARRAY">
+      <offset>4</offset>
+    </column>
+    <column name="Comment" type="STRING">
+      <offset>8</offset>
+    </column>
+    <column name="Flags" type="INT">
+      <offset>12</offset>
+      <static_define_list external="GimmeCheckinFlags" />
+    </column>
+    <column name="ExtraFilespecEntries" type="STRUCT">
+      <offset>16</offset>
+      <subtable external="GimmeFileSpecEntry" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

@@ -15,7 +15,7 @@
       <offset>4</offset>
       <flags>
         <flag>NO_WRITE</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="KeyboardLayout" />
     </column>

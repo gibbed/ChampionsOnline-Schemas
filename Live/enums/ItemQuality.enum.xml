@@ -2,5 +2,12 @@
 <enum name="ItemQuality">
   <elements type="int">
     <element name="None">-1</element>
+    <element name="white">0</element>
+    <element name="Yellow">1</element>
+    <element name="green">2</element>
+    <element name="blue">3</element>
+    <element name="Purple">4</element>
+    <element name="Gold">5</element>
+    <element name="Special">6</element>
   </elements>
 </enum>

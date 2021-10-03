@@ -25,7 +25,7 @@
     <column name="Flags" type="INT">
       <offset>28</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 217DD90 -->
       </static_define_list>
     </column>
     <column name="header_size" type="INT">

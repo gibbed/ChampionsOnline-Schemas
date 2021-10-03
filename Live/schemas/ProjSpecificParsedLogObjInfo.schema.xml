@@ -24,7 +24,7 @@
       <offset>4</offset>
       <flags>
         <flag>ESTRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Val</redundant_name>
     </column>

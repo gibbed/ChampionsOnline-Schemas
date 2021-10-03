@@ -18,7 +18,7 @@
     <column name="Flags" type="INT">
       <offset>4</offset>
       <static_define_list external="TacticalDisableFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="}" type="END" />
   </table>

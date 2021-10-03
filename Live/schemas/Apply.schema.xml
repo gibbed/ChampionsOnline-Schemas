@@ -10,7 +10,7 @@
         <flag>STRUCTPARAM</flag>
       </flags>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 223A778 -->
       </static_define_list>
     </column>
     <column type="STRING">

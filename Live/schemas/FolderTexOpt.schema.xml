@@ -25,9 +25,9 @@
     <column name="Flags" type="INT">
       <offset>8</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20CD4E8 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="MipFilter" type="INT">
       <offset>16</offset>

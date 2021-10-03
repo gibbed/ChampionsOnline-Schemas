@@ -33,14 +33,14 @@
     <column name="SelectedPower" type="OPTIONALSTRUCT">
       <offset>24</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PowerListNode" />
     </column>
     <column name="SelectedPowerNode" type="OPTIONALSTRUCT">
       <offset>28</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PTNodeDef" />
     </column>
@@ -55,13 +55,13 @@
     <column name="FilterText" type="STRING">
       <offset>40</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="FilterModList" type="STRING">
       <offset>44</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="ShowOwned" type="U8">

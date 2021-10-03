@@ -13,7 +13,7 @@
     <column name="Name:" type="STRING">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Name</redundant_name>
     </column>
@@ -23,7 +23,7 @@
     <column name="Dir:" type="STRING">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Dir</redundant_name>
     </column>

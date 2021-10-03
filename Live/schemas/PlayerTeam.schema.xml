@@ -203,7 +203,7 @@
       <flags>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
-        <flag>SOMETIMES_TRANSACT</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
     </column>
     <column name="dirtyBit" type="U8">

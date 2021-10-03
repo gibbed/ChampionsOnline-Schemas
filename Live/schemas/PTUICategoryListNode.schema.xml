@@ -19,7 +19,7 @@
     <column name="TreeHolder" type="STRUCT">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PowerTreeHolder" />
     </column>

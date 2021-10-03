@@ -13,7 +13,7 @@
     <column name="Date" type="STRING">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RespecTimeString</redundant_name>
     </column>

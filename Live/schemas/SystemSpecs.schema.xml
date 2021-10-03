@@ -133,12 +133,12 @@
     <column name="material_hardware_supported_features" type="INT">
       <offset>2180</offset>
       <static_define_list external="ShaderGraphFeatures" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="material_supported_features" type="INT">
       <offset>2184</offset>
       <static_define_list external="ShaderGraphFeatures" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="isDx11Enabled" type="U8">
       <offset>2188</offset>

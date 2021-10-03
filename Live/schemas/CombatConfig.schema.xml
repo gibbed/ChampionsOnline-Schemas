@@ -99,13 +99,13 @@
     <column name="InterruptToggles" type="INT">
       <offset>100</offset>
       <static_define_list external="PowerInterruption" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="SoftTargetFlags" type="INT">
       <offset>104</offset>
       <default>33</default>
       <static_define_list external="TargetType" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="TrayMaxSize" type="INT">
       <offset>108</offset>
@@ -180,339 +180,335 @@
       <offset>176</offset>
       <bit_offset>65537</bit_offset>
     </column>
-    <column name="BonusAspectsAreAbsPostScale" type="BIT">
+    <column name="UseNormalizedDodge" type="BIT">
       <offset>176</offset>
       <bit_offset>65538</bit_offset>
     </column>
-    <column name="UseNormalizedDodge" type="BIT">
+    <column name="ShieldAggroDisable" type="BIT">
       <offset>176</offset>
       <bit_offset>65539</bit_offset>
     </column>
-    <column name="ShieldAggroDisable" type="BIT">
+    <column name="CritterStats" type="BIT">
       <offset>176</offset>
       <bit_offset>65540</bit_offset>
     </column>
-    <column name="CritterStats" type="BIT">
+    <column name="CritterEquipment" type="BIT">
       <offset>176</offset>
       <bit_offset>65541</bit_offset>
     </column>
-    <column name="CritterEquipment" type="BIT">
+    <column name="FallingDamage" type="BIT">
       <offset>176</offset>
       <bit_offset>65542</bit_offset>
     </column>
-    <column name="FallingDamage" type="BIT">
+    <column name="ToggleCooldownOnDeactivation" type="BIT">
       <offset>176</offset>
       <bit_offset>65543</bit_offset>
     </column>
-    <column name="ToggleCooldownOnDeactivation" type="BIT">
+    <column name="MoveDuringPowerActivation" type="BIT">
       <offset>176</offset>
       <bit_offset>65544</bit_offset>
     </column>
-    <column name="MoveDuringPowerActivation" type="BIT">
+    <column name="MovementCancelsRootingQueuedPowers" type="BIT">
       <offset>176</offset>
       <bit_offset>65545</bit_offset>
     </column>
-    <column name="MovementCancelsRootingQueuedPowers" type="BIT">
+    <column name="MovementAttemptInterrupt" type="BIT">
       <offset>176</offset>
       <bit_offset>65546</bit_offset>
     </column>
-    <column name="MovementAttemptInterrupt" type="BIT">
-      <offset>176</offset>
-      <bit_offset>65547</bit_offset>
-    </column>
     <column name="FaceActivateSticky" type="BIT">
       <offset>176</offset>
-      <bit_offset>65548</bit_offset>
+      <bit_offset>65547</bit_offset>
     </column>
     <column name="FaceDuringPowerActivation" type="BIT">
       <offset>176</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FaceActivateSticky</redundant_name>
-      <bit_offset>65548</bit_offset>
+      <bit_offset>65547</bit_offset>
     </column>
     <column name="FaceActivateSoft" type="BIT">
       <offset>176</offset>
-      <bit_offset>65549</bit_offset>
+      <bit_offset>65548</bit_offset>
     </column>
     <column name="ActivationFaceSoft" type="BIT">
       <offset>176</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FaceActivateSoft</redundant_name>
-      <bit_offset>65549</bit_offset>
+      <bit_offset>65548</bit_offset>
     </column>
     <column name="UseLegacyFacingRules" type="BIT">
       <offset>176</offset>
       <flags>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
-      <bit_offset>65550</bit_offset>
+      <bit_offset>65549</bit_offset>
       <format_strings>
         <format_string name="SPECIAL_DEFAULT">1</format_string>
       </format_strings>
     </column>
     <column name="DisableOutOfRange" type="BIT">
       <offset>176</offset>
-      <bit_offset>65551</bit_offset>
+      <bit_offset>65550</bit_offset>
     </column>
     <column name="EnableOutOfRangeForPlayersIfNoTarget" type="BIT">
       <offset>176</offset>
-      <bit_offset>65552</bit_offset>
+      <bit_offset>65551</bit_offset>
     </column>
     <column name="RequireValidTarget" type="BIT">
       <offset>176</offset>
-      <bit_offset>65553</bit_offset>
+      <bit_offset>65552</bit_offset>
     </column>
     <column name="LoSCheckBackwards" type="BIT">
       <offset>176</offset>
-      <bit_offset>65554</bit_offset>
+      <bit_offset>65553</bit_offset>
     </column>
     <column name="TargetArcIgnoresVertical" type="BIT">
       <offset>176</offset>
-      <bit_offset>65555</bit_offset>
+      <bit_offset>65554</bit_offset>
     </column>
     <column name="ModAppliedPowersUseOwnerTargetType" type="BIT">
       <offset>176</offset>
-      <bit_offset>65556</bit_offset>
+      <bit_offset>65555</bit_offset>
     </column>
     <column name="CheckMainTarget" type="BIT">
       <offset>176</offset>
-      <bit_offset>65557</bit_offset>
+      <bit_offset>65556</bit_offset>
     </column>
     <column name="CheckProximityInCombat" type="BIT">
       <offset>176</offset>
-      <bit_offset>65558</bit_offset>
+      <bit_offset>65557</bit_offset>
     </column>
     <column name="SwitchCapsulesInCombat" type="BIT">
       <offset>176</offset>
-      <bit_offset>65559</bit_offset>
+      <bit_offset>65558</bit_offset>
     </column>
     <column name="CollideWithPetsInCombat" type="BIT">
       <offset>176</offset>
-      <bit_offset>65560</bit_offset>
+      <bit_offset>65559</bit_offset>
     </column>
     <column name="AssistChecksTargetSelfFirst" type="BIT">
       <offset>176</offset>
-      <bit_offset>65561</bit_offset>
+      <bit_offset>65560</bit_offset>
     </column>
     <column name="BuildMinIsZero" type="BIT">
       <offset>176</offset>
-      <bit_offset>65562</bit_offset>
+      <bit_offset>65561</bit_offset>
     </column>
     <column name="ExpiresWithoutPowerChecksAlive" type="BIT">
       <offset>176</offset>
-      <bit_offset>65563</bit_offset>
+      <bit_offset>65562</bit_offset>
     </column>
     <column name="KnockLowAngle" type="BIT">
       <offset>176</offset>
-      <bit_offset>65564</bit_offset>
+      <bit_offset>65563</bit_offset>
     </column>
     <column name="IgnoreStrEnhanceRequiresCheck" type="BIT">
       <offset>176</offset>
-      <bit_offset>65565</bit_offset>
+      <bit_offset>65564</bit_offset>
     </column>
     <column name="UseCameraTargeting" type="BIT">
       <offset>176</offset>
-      <bit_offset>65566</bit_offset>
+      <bit_offset>65565</bit_offset>
     </column>
     <column name="CameraTargetingGetsPlayerFacing" type="BIT">
       <offset>176</offset>
-      <bit_offset>65567</bit_offset>
+      <bit_offset>65566</bit_offset>
     </column>
     <column name="CameraTargetingVecTargetAssistIgnoreHardTarget" type="BIT">
-      <offset>180</offset>
-      <bit_offset>65536</bit_offset>
+      <offset>176</offset>
+      <bit_offset>65567</bit_offset>
     </column>
     <column name="MaintainedFullPeriods" type="BIT">
       <offset>180</offset>
-      <bit_offset>65537</bit_offset>
+      <bit_offset>65536</bit_offset>
     </column>
     <column name="ForceRespawnOnMapLeave" type="BIT">
       <offset>180</offset>
-      <bit_offset>65538</bit_offset>
+      <bit_offset>65537</bit_offset>
     </column>
     <column name="InfiniteSidekickRangeInstances" type="BIT">
       <offset>180</offset>
-      <bit_offset>65539</bit_offset>
+      <bit_offset>65538</bit_offset>
     </column>
     <column name="TestActDynamicEachPeriod" type="BIT">
       <offset>180</offset>
-      <bit_offset>65540</bit_offset>
+      <bit_offset>65539</bit_offset>
     </column>
     <column name="DelayAllPowerTargetingOnQueuedDefault" type="BIT">
       <offset>180</offset>
-      <bit_offset>65541</bit_offset>
+      <bit_offset>65540</bit_offset>
     </column>
     <column name="CursorModeTargetingUseStrictActivationTest" type="BIT">
       <offset>180</offset>
-      <bit_offset>65542</bit_offset>
+      <bit_offset>65541</bit_offset>
     </column>
     <column name="AllowRechargingPowersInQueue" type="BIT">
       <offset>180</offset>
-      <bit_offset>65543</bit_offset>
+      <bit_offset>65542</bit_offset>
     </column>
     <column name="EnableInCombatAnimBit" type="BIT">
       <offset>180</offset>
-      <bit_offset>65544</bit_offset>
+      <bit_offset>65543</bit_offset>
     </column>
     <column name="LungeIgnoresCollisionCapsules" type="BIT">
       <offset>180</offset>
-      <bit_offset>65545</bit_offset>
+      <bit_offset>65544</bit_offset>
     </column>
     <column name="ClampResFactPosToZero" type="BIT">
       <offset>180</offset>
-      <bit_offset>65546</bit_offset>
+      <bit_offset>65545</bit_offset>
     </column>
     <column name="ClientPredictMaintained" type="BIT">
       <offset>180</offset>
-      <bit_offset>65547</bit_offset>
+      <bit_offset>65546</bit_offset>
     </column>
     <column name="ClientPredictSeq" type="BIT">
       <offset>180</offset>
-      <bit_offset>65548</bit_offset>
+      <bit_offset>65547</bit_offset>
     </column>
     <column name="ClientPredictHit" type="BIT">
       <offset>180</offset>
-      <bit_offset>65549</bit_offset>
+      <bit_offset>65548</bit_offset>
     </column>
     <column name="ClientChargeData" type="BIT">
       <offset>180</offset>
-      <bit_offset>65550</bit_offset>
+      <bit_offset>65549</bit_offset>
     </column>
     <column name="CooldownPowersGetMultiExecedWhenActivated" type="BIT">
       <offset>180</offset>
-      <bit_offset>65551</bit_offset>
+      <bit_offset>65550</bit_offset>
     </column>
     <column name="PowerAnimFXChooseNodesInRangeAndArc" type="BIT">
       <offset>180</offset>
-      <bit_offset>65552</bit_offset>
+      <bit_offset>65551</bit_offset>
     </column>
     <column name="CharacterClassSpecifiesStrafing" type="BIT">
       <offset>180</offset>
-      <bit_offset>65553</bit_offset>
+      <bit_offset>65552</bit_offset>
     </column>
     <column name="AreaEffectSpheresCalculateRadiusFromCombatPos" type="BIT">
       <offset>180</offset>
-      <bit_offset>65554</bit_offset>
+      <bit_offset>65553</bit_offset>
     </column>
     <column name="PowerCustomizationDisabled" type="BIT">
       <offset>180</offset>
-      <bit_offset>65555</bit_offset>
+      <bit_offset>65554</bit_offset>
     </column>
     <column name="TargetDeadEnts" type="BIT">
       <offset>180</offset>
-      <bit_offset>65556</bit_offset>
+      <bit_offset>65555</bit_offset>
     </column>
     <column name="TargetDeadFoes" type="BIT">
       <offset>180</offset>
-      <bit_offset>65557</bit_offset>
+      <bit_offset>65556</bit_offset>
     </column>
     <column name="FlightDisableAutoLevel" type="BIT">
       <offset>180</offset>
-      <bit_offset>65558</bit_offset>
+      <bit_offset>65557</bit_offset>
     </column>
     <column name="FlightRotationIgnorePitch" type="BIT">
       <offset>180</offset>
-      <bit_offset>65559</bit_offset>
+      <bit_offset>65558</bit_offset>
     </column>
     <column name="FlightPointAndDirectionRotationTypesIgnorePitch" type="BIT">
       <offset>180</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FlightRotationIgnorePitch</redundant_name>
-      <bit_offset>65559</bit_offset>
+      <bit_offset>65558</bit_offset>
     </column>
     <column name="FlightAllRotationTargetTypesIgnorePitch" type="BIT">
       <offset>180</offset>
-      <bit_offset>65560</bit_offset>
+      <bit_offset>65559</bit_offset>
     </column>
     <column name="MakeMedRunSameAsFastRun" type="BIT">
       <offset>180</offset>
-      <bit_offset>65561</bit_offset>
+      <bit_offset>65560</bit_offset>
     </column>
     <column name="RagdollAvailable" type="BIT">
       <offset>180</offset>
-      <bit_offset>65562</bit_offset>
+      <bit_offset>65561</bit_offset>
     </column>
     <column name="UseMovementManagerTurning" type="BIT">
       <offset>180</offset>
-      <bit_offset>65563</bit_offset>
+      <bit_offset>65562</bit_offset>
     </column>
     <column name="FallingDamageIsFatal" type="BIT">
       <offset>180</offset>
-      <bit_offset>65564</bit_offset>
+      <bit_offset>65563</bit_offset>
     </column>
     <column name="ClientAutoAttackSchemeFinishDelay" type="BIT">
       <offset>180</offset>
-      <bit_offset>65565</bit_offset>
+      <bit_offset>65564</bit_offset>
     </column>
     <column name="AutoAttackAllowInitialAttackToFinish" type="BIT">
       <offset>180</offset>
-      <bit_offset>65566</bit_offset>
+      <bit_offset>65565</bit_offset>
     </column>
     <column name="AutoAttackNeverDelay" type="BIT">
       <offset>180</offset>
-      <bit_offset>65567</bit_offset>
+      <bit_offset>65566</bit_offset>
     </column>
     <column name="AutoAttackDeactivateChargePowersOnTargetSwitch" type="BIT">
-      <offset>184</offset>
+      <offset>180</offset>
       <flags>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
-      <bit_offset>65536</bit_offset>
+      <bit_offset>65567</bit_offset>
       <format_strings>
         <format_string name="SPECIAL_DEFAULT">1</format_string>
       </format_strings>
     </column>
     <column name="DiscountCostIsAbsolute" type="BIT">
       <offset>184</offset>
-      <bit_offset>65537</bit_offset>
+      <bit_offset>65536</bit_offset>
     </column>
     <column name="RemoveMultiExecPowersIfInvalidTarget" type="BIT">
       <offset>184</offset>
-      <bit_offset>65538</bit_offset>
+      <bit_offset>65537</bit_offset>
     </column>
     <column name="EmotesUseRequester" type="BIT">
       <offset>184</offset>
-      <bit_offset>65539</bit_offset>
+      <bit_offset>65538</bit_offset>
     </column>
     <column name="PowerAttribSurvivesCharDeath" type="BIT">
       <offset>184</offset>
-      <bit_offset>65540</bit_offset>
+      <bit_offset>65539</bit_offset>
     </column>
     <column name="NearDeathTargetsFaceInteractee" type="BIT">
       <offset>184</offset>
       <flags>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
-      <bit_offset>65541</bit_offset>
+      <bit_offset>65540</bit_offset>
       <format_strings>
         <format_string name="SPECIAL_DEFAULT">1</format_string>
       </format_strings>
     </column>
     <column name="PlayerControlsAllowHardTarget" type="BIT">
       <offset>184</offset>
-      <bit_offset>65542</bit_offset>
+      <bit_offset>65541</bit_offset>
     </column>
     <column name="SendImmunityCombatTrackers" type="BIT">
       <offset>184</offset>
-      <bit_offset>65543</bit_offset>
+      <bit_offset>65542</bit_offset>
     </column>
     <column name="PowersAEClientViewDisabled" type="BIT">
       <offset>184</offset>
-      <bit_offset>65544</bit_offset>
+      <bit_offset>65543</bit_offset>
     </column>
     <column name="SendCombatTrackersForOverhealing" type="BIT">
       <offset>184</offset>
-      <bit_offset>65545</bit_offset>
+      <bit_offset>65544</bit_offset>
     </column>
     <column name="PlayerControlSetMoveAndFaceYawDuringPowerActivation" type="BIT">
       <offset>184</offset>
-      <bit_offset>65546</bit_offset>
+      <bit_offset>65545</bit_offset>
     </column>
     <column name="ClientTargetAssist" type="INT">
       <offset>188</offset>

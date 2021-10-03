@@ -20,7 +20,7 @@
       <offset>0</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -38,7 +38,7 @@
     <column name="iEventCount" type="INT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>

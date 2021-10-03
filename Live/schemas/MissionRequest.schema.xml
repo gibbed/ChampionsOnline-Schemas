@@ -32,7 +32,7 @@
     <column name="hRequestedMission" type="REFERENCE">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>RequestedMission</redundant_name>
@@ -48,7 +48,7 @@
     <column name="hRequestedMissionSet" type="REFERENCE">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>RequestedMissionSet</redundant_name>

@@ -24,7 +24,7 @@
     <column name="LayoutName" type="STRING">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>StartLayout</redundant_name>
     </column>

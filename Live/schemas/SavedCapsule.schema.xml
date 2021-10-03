@@ -17,7 +17,7 @@
     <column name="vStart" type="F32FIXEDARRAY">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Start</redundant_name>
@@ -33,7 +33,7 @@
     <column name="vDir" type="F32FIXEDARRAY">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Dir</redundant_name>
@@ -48,7 +48,7 @@
     <column name="fLength" type="F32">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Length</redundant_name>
@@ -62,7 +62,7 @@
     <column name="fRadius" type="F32">
       <offset>28</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Radius</redundant_name>
@@ -76,7 +76,7 @@
     <column name="iType" type="INT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Type</redundant_name>

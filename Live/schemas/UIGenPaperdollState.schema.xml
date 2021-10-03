@@ -18,15 +18,15 @@
     <column name="Texture" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="BasicTexture" />
     </column>
     <column name="HeadshotTexture" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>REDUNDANTNAME</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <redundant_name>Texture</redundant_name>
       <subtable external="BasicTexture" />
@@ -34,15 +34,15 @@
     <column name="Background" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="BasicTexture" />
     </column>
     <column name="BackgroundTexture" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>REDUNDANTNAME</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <redundant_name>Background</redundant_name>
       <subtable external="BasicTexture" />
@@ -136,7 +136,7 @@
     <column name="ItemArt" type="OPTIONALSTRUCT">
       <offset>248</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="ItemArt" />
     </column>

@@ -8,7 +8,7 @@
     <column name="Folder" type="STRUCT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Template</redundant_name>
       <subtable external="parse_preload_dir" />
@@ -20,7 +20,7 @@
     <column name="LateFolder" type="STRUCT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LateTemplate</redundant_name>
       <subtable external="parse_preload_dir" />

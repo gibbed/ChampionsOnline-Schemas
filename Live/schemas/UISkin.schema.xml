@@ -114,7 +114,7 @@
     <column name="hNormal" type="REFERENCE">
       <offset>80</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NormalFont:</redundant_name>
       <dictionary_name>UIStyleFont</dictionary_name>
@@ -126,7 +126,7 @@
     <column name="hTitlebar" type="REFERENCE">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TitlebarFont:</redundant_name>
       <dictionary_name>UIStyleFont</dictionary_name>

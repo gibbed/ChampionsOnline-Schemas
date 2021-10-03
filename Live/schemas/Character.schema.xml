@@ -125,7 +125,7 @@
       <flags>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
-        <flag>SOMETIMES_TRANSACT</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
       <subtable external="CharacterPowerSlots" />
     </column>
@@ -214,7 +214,7 @@
       <offset>128</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -224,7 +224,7 @@
       <offset>128</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -606,7 +606,7 @@
     <column name="eaSavedPowersIDs" type="INTARRAY">
       <offset>584</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -616,7 +616,7 @@
     <column name="puiPowerIDsSaved" type="INTARRAY">
       <offset>584</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>

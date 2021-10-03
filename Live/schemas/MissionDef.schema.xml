@@ -89,7 +89,7 @@
     <column name="Comments:" type="STRING">
       <offset>68</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Comments</redundant_name>
@@ -158,7 +158,7 @@
     <column name="UsePlayerLevel" type="INT">
       <offset>184</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LevelType</redundant_name>
       <static_define_list external="MissionLevelType" />
@@ -170,7 +170,7 @@
     <column name="Level:" type="INT">
       <offset>188</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Level</redundant_name>
       <default>1</default>
@@ -194,7 +194,7 @@
     <column name="TimeToComplete:" type="INT">
       <offset>208</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TimeToComplete</redundant_name>
     </column>
@@ -209,7 +209,7 @@
       <offset>212</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>GrantOnMap</redundant_name>
@@ -224,7 +224,7 @@
     <column name="Requires:" type="OPTIONALSTRUCT">
       <offset>216</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>RequiresBlock</redundant_name>
@@ -275,7 +275,7 @@
     <column name="CanRepeat:" type="U8">
       <offset>244</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CanRepeat</redundant_name>
     </column>
@@ -301,7 +301,7 @@
     <column name="NeedsReturn:" type="U8">
       <offset>262</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NeedsReturn</redundant_name>
       <default>1</default>
@@ -323,7 +323,7 @@
     <column name="Parameters:" type="OPTIONALSTRUCT">
       <offset>268</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Parameters</redundant_name>
@@ -416,7 +416,7 @@
     <column name="SubMission:" type="STRUCT">
       <offset>316</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>NO_INDEX</flag>
       </flags>
       <redundant_name>SubMission</redundant_name>
@@ -484,7 +484,7 @@
       <offset>364</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>GLOBAL_NAME</flag>
       </flags>
       <redundant_name>RelatedMission</redundant_name>
@@ -615,6 +615,18 @@
     <column name="MissionUIType" type="INT">
       <offset>452</offset>
       <static_define_list external="MissionUIType" />
+    </column>
+    <column name="OpenMissionScores" type="U8">
+      <offset>456</offset>
+    </column>
+    <column name="uFirstPlaceScore" type="F32">
+      <offset>460</offset>
+    </column>
+    <column name="uSecondPlaceScore" type="F32">
+      <offset>464</offset>
+    </column>
+    <column name="uThirdPlaceScore" type="F32">
+      <offset>468</offset>
     </column>
     <column name="IconString:" type="IGNORE" />
     <column name="NextActionUniqueID" type="IGNORE" />

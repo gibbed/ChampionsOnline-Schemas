@@ -30,7 +30,7 @@
     <column name="PercentDamageIgnored" type="F32">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PercentIgnored</redundant_name>
     </column>

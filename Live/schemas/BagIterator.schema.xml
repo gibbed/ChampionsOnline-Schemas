@@ -10,14 +10,14 @@
     <column name="Bags" type="STRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="InventoryBag" />
     </column>
     <column name="Litebags" type="STRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="InventoryBagLite" />
     </column>

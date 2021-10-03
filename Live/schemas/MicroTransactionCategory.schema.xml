@@ -49,7 +49,7 @@
     <column name="SortValue" type="INT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SortIndex</redundant_name>
     </column>

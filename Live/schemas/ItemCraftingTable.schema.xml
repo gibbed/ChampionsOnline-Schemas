@@ -21,7 +21,7 @@
     <column name="Result" type="REFERENCE">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ItemResult</redundant_name>
       <dictionary_name>ItemDef</dictionary_name>

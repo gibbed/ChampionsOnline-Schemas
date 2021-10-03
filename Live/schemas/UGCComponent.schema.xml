@@ -48,7 +48,7 @@
     <column name="PromptWhen" type="OPTIONALSTRUCT">
       <offset>76</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>When</redundant_name>
       <subtable external="UGCWhen" />
@@ -56,7 +56,7 @@
     <column name="PromptIsPopup" type="OPTIONALSTRUCT">
       <offset>76</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>When</redundant_name>
       <subtable external="UGCWhen" />
@@ -132,7 +132,7 @@
     <column name="PromptButton" type="STRUCT">
       <offset>140</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Action</redundant_name>
       <subtable external="UGCDialogTreePromptAction" />
@@ -158,7 +158,7 @@
     <column name="Prompt" type="STRUCT">
       <offset>176</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Block</redundant_name>
       <subtable external="UGCDialogTreeBlock" />
@@ -169,7 +169,7 @@
     <column name="PromptContactID" type="INT">
       <offset>180</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ActorID</redundant_name>
     </column>
@@ -179,7 +179,7 @@
     <column name="PromptWhenObjectiveID" type="INTARRAY">
       <offset>184</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ObjectiveID</redundant_name>
     </column>
@@ -195,7 +195,7 @@
     <column name="ContactName" type="STRING">
       <offset>192</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>DisplayName</redundant_name>
     </column>

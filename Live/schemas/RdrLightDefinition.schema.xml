@@ -24,7 +24,7 @@
     <column name="LightType" type="INT">
       <offset>20</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 218B0C0 -->
       </static_define_list>
     </column>
     <column name="vertexlightparams" type="EMBEDDEDSTRUCT">

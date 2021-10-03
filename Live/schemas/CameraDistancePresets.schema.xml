@@ -38,7 +38,7 @@
     <column name="FadeDistanceScale" type="F32">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FadeScale</redundant_name>
       <default>1</default>

@@ -17,7 +17,7 @@
     <column name="Color" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ColorBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -32,7 +32,7 @@
     <column name="Scale" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ScaleBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -44,7 +44,7 @@
     <column name="VelocityX" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>VelocityXBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -59,7 +59,7 @@
     <column name="VelocityY" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>VelocityYBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -74,7 +74,7 @@
     <column name="Lifetime" type="OPTIONALSTRUCT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LifetimeBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -89,7 +89,7 @@
     <column name="Font" type="OPTIONALSTRUCT">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FontBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -104,7 +104,7 @@
     <column name="Text" type="OPTIONALSTRUCT">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TextBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -119,7 +119,7 @@
     <column name="X" type="OPTIONALSTRUCT">
       <offset>28</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>XBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -134,7 +134,7 @@
     <column name="Y" type="OPTIONALSTRUCT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>YBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -149,7 +149,7 @@
     <column name="OffsetFrom" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>OffsetFromBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -164,7 +164,7 @@
     <column name="Group" type="OPTIONALSTRUCT">
       <offset>40</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>GroupBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -176,7 +176,7 @@
     <column name="BottomColor" type="OPTIONALSTRUCT">
       <offset>44</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BottomColorBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -188,7 +188,7 @@
     <column name="Priority" type="OPTIONALSTRUCT">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PriorityBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -200,7 +200,7 @@
     <column name="Popout" type="OPTIONALSTRUCT">
       <offset>52</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PopoutBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -212,7 +212,7 @@
     <column name="IconName" type="OPTIONALSTRUCT">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IconBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -224,7 +224,7 @@
     <column name="IconOffset" type="OPTIONALSTRUCT">
       <offset>60</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IconOffsetBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -236,7 +236,7 @@
     <column name="IconScale" type="OPTIONALSTRUCT">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IconScaleBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -248,7 +248,7 @@
     <column name="IconX" type="OPTIONALSTRUCT">
       <offset>68</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IconXBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -260,7 +260,7 @@
     <column name="IconY" type="OPTIONALSTRUCT">
       <offset>72</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IconYBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -272,7 +272,7 @@
     <column name="MinArc" type="OPTIONALSTRUCT">
       <offset>76</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MinArcBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -284,7 +284,7 @@
     <column name="MaxArc" type="OPTIONALSTRUCT">
       <offset>80</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MaxArcBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -296,7 +296,7 @@
     <column name="Radius" type="OPTIONALSTRUCT">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RadiusBlock</redundant_name>
       <subtable external="Expression_StructParam" />

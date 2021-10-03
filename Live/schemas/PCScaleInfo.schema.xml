@@ -42,7 +42,7 @@
     <column name="RestrictedTo" type="INT">
       <offset>36</offset>
       <static_define_list external="PCRestriction" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="}" type="END" />
   </table>

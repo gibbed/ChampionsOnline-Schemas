@@ -10,7 +10,7 @@
     <column name="team_duel" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PVPTeamDuel" />
     </column>

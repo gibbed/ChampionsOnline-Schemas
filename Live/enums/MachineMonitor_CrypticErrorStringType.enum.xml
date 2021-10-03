@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="MachineMonitor_CrypticErrorStringType">
+  <elements type="int">
+    <element name="UNSPECIFIED">0</element>
+    <element name="NORMAL">1</element>
+    <element name="BOLD">2</element>
+    <element name="NOTE">3</element>
+    <element name="ERROR">4</element>
+    <element name="IMPORTANT">5</element>
+    <element name="STATUS_BAR">6</element>
+    <element name="REMAINING">7</element>
+    <element name="PERCENT">8</element>
+  </elements>
+</enum>

@@ -20,7 +20,7 @@
       <offset>0</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -36,7 +36,7 @@
       <offset>4</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FileName</redundant_name>
     </column>
@@ -51,7 +51,7 @@
       <offset>8</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Scope</redundant_name>
@@ -66,7 +66,7 @@
     <column name="eCostumeType" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>CostumeType</redundant_name>
@@ -78,7 +78,7 @@
     <column name="bAccountWideUnlock" type="INT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AccountUnlock</redundant_name>
     </column>
@@ -92,7 +92,7 @@
     <column name="hSkeleton" type="REFERENCE">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Skeleton</redundant_name>
@@ -105,7 +105,7 @@
     <column name="hSpecies" type="REFERENCE">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Species</redundant_name>
       <dictionary_name>Species</dictionary_name>
@@ -120,7 +120,7 @@
     <column name="eGender" type="INT">
       <offset>28</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Gender</redundant_name>
@@ -136,7 +136,7 @@
     <column name="eaRegionCategories" type="STRUCT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>RegionCategory</redundant_name>
@@ -152,7 +152,7 @@
     <column name="SkinColor" type="F32FIXEDARRAY">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>SkinColor</redundant_name>
@@ -168,7 +168,7 @@
     <column name="eDefaultColorLinkAll" type="U8">
       <offset>52</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>DefaultColorLinkAll</redundant_name>
@@ -183,7 +183,7 @@
     <column name="eDefaultMaterialLinkAll" type="U8">
       <offset>53</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>DefaultMaterialLinkAll</redundant_name>
@@ -197,7 +197,7 @@
     <column name="eafBodyScales" type="F32ARRAY">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>BodyScale</redundant_name>
@@ -211,7 +211,7 @@
     <column name="fMuscle" type="F32">
       <offset>60</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Muscle</redundant_name>
@@ -225,7 +225,7 @@
     <column name="fHeight" type="F32">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Height</redundant_name>
@@ -239,7 +239,7 @@
     <column name="fTransparency" type="F32">
       <offset>68</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Transparency</redundant_name>
@@ -254,7 +254,7 @@
     <column name="eaScaleValues" type="STRUCT">
       <offset>72</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ScaleValues</redundant_name>
@@ -271,7 +271,7 @@
       <offset>76</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Stance</redundant_name>
@@ -286,7 +286,7 @@
     <column name="eaTexWords" type="STRUCT">
       <offset>80</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>TexWords</redundant_name>
@@ -301,7 +301,7 @@
     <column name="bNoCollision" type="U8">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>NoCollision</redundant_name>
@@ -315,7 +315,7 @@
     <column name="bNoBodySock" type="U8">
       <offset>85</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>NoBodySock</redundant_name>
@@ -329,7 +329,7 @@
     <column name="bNoRagdoll" type="U8">
       <offset>86</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>NoRagdoll</redundant_name>
@@ -343,7 +343,7 @@
     <column name="bShellColl" type="U8">
       <offset>87</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ShellColl</redundant_name>
@@ -359,7 +359,7 @@
       <offset>88</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>CollisionGeo</redundant_name>
@@ -374,7 +374,7 @@
     <column name="eaFX" type="STRUCT">
       <offset>92</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>FX</redundant_name>
@@ -390,7 +390,7 @@
     <column name="eaFXSwap" type="STRUCT">
       <offset>96</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>FXSwap</redundant_name>
@@ -406,7 +406,7 @@
     <column name="eaConstantBits" type="STRUCT">
       <offset>100</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ConstantBits</redundant_name>
@@ -422,7 +422,7 @@
     <column name="eaParts" type="STRUCT">
       <offset>104</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Part</redundant_name>
@@ -438,7 +438,7 @@
     <column name="ppCollCapsules" type="STRUCT">
       <offset>108</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Capsule</redundant_name>
@@ -453,7 +453,7 @@
     <column name="fCollRadius" type="F32">
       <offset>112</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>CollRadius</redundant_name>

@@ -17,7 +17,7 @@
     <column name="Ent" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>
@@ -28,7 +28,7 @@
     <column name="OwnerName" type="STRING">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="}" type="END" />

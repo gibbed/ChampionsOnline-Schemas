@@ -13,7 +13,7 @@
     <column name="AttemptExpr" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AttemptExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -25,7 +25,7 @@
     <column name="SuccessExpr" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SuccessExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -37,7 +37,7 @@
     <column name="FailureExpr" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FailureExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -49,7 +49,7 @@
     <column name="InterruptExpr" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>InterruptExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -61,7 +61,7 @@
     <column name="NoLongerActiveExpr" type="OPTIONALSTRUCT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NoLongerActiveExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -73,7 +73,7 @@
     <column name="CooldownExpr" type="OPTIONALSTRUCT">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CooldownExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />

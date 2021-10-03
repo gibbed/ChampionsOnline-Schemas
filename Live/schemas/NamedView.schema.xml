@@ -22,7 +22,7 @@
     <column name="Time" type="INT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Revision</redundant_name>
     </column>

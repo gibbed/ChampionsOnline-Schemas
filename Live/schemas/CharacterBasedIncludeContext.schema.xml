@@ -7,15 +7,6 @@
       </flags>
     </column>
     <column name="{" type="START" />
-    <column name="Class" type="STRING">
-      <offset>0</offset>
-    </column>
-    <column name="ClassPath" type="STRING">
-      <offset>4</offset>
-    </column>
-    <column name="Species" type="STRING">
-      <offset>8</offset>
-    </column>
     <column name="Gender" type="INT">
       <offset>12</offset>
       <static_define_list external="Gender" />

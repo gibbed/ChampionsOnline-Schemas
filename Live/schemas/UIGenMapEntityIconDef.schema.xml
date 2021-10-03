@@ -10,7 +10,7 @@
     <column name="TargetType" type="INT">
       <offset>0</offset>
       <static_define_list external="TargetType" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="ContactIndicator" type="INT">
       <offset>4</offset>
@@ -19,7 +19,7 @@
     <column name="ContactFlags" type="INT">
       <offset>8</offset>
       <static_define_list external="ContactFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="NotificationTypes" type="INTARRAY">
       <offset>12</offset>
@@ -54,7 +54,7 @@
       <offset>20</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>GLOBAL_NAME</flag>
       </flags>
       <redundant_name>Icon</redundant_name>
@@ -72,7 +72,7 @@
       <offset>24</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>GLOBAL_NAME</flag>
       </flags>
       <redundant_name>FormatIcon</redundant_name>
@@ -82,7 +82,7 @@
       <offset>28</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="Label" type="REFERENCE">

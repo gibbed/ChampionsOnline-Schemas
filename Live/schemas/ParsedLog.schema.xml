@@ -50,7 +50,7 @@
     <column name="FileGroup" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="LogFileGroup" />
     </column>

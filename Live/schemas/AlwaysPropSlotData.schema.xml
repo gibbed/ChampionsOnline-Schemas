@@ -14,7 +14,7 @@
     <column name="RestrictDef" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="AlwaysPropSlotClassRestrictDef" />
     </column>
@@ -24,7 +24,7 @@
     <column name="ClassDisplayName" type="STRING">
       <offset>12</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="SlotID" type="INT">

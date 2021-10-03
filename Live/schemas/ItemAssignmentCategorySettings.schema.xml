@@ -39,7 +39,7 @@
       <offset>24</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NumericXP1</redundant_name>
     </column>
@@ -53,7 +53,7 @@
       <offset>28</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NumericXP2</redundant_name>
     </column>
@@ -67,7 +67,7 @@
       <offset>32</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NumericRank1</redundant_name>
     </column>
@@ -81,7 +81,7 @@
       <offset>36</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NumericRank2</redundant_name>
     </column>

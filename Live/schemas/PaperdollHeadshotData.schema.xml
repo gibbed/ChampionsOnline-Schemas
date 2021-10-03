@@ -10,34 +10,34 @@
     <column name="HeadshotStyle" type="STRING">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="WLCostume" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="WLCostume" />
     </column>
     <column name="PlayerCostume" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PlayerCostume" />
     </column>
     <column name="Entity" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>
     <column name="ItemArt" type="OPTIONALSTRUCT">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="ItemArt" />
     </column>

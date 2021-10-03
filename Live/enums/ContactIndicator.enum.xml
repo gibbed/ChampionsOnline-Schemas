@@ -34,5 +34,18 @@
     <element name="HasGoto">30</element>
     <element name="MissionCompleted">31</element>
     <element name="MissionCompletedRepeatable">32</element>
+    <element name="Generic">33</element>
+    <element name="Questionite">34</element>
+    <element name="Recognition_MCPD">35</element>
+    <element name="Recognition_Primus">36</element>
+    <element name="Recognition_UNTIL">37</element>
+    <element name="Recognition_Champs">38</element>
+    <element name="Recognition_Champs_Silver">39</element>
+    <element name="Recognition_Mechanon">40</element>
+    <element name="Stars">41</element>
+    <element name="Snakebucks">42</element>
+    <element name="Crafting">43</element>
+    <element name="Perks">44</element>
+    <element name="Onslaught">45</element>
   </elements>
 </enum>

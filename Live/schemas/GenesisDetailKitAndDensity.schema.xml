@@ -14,7 +14,7 @@
     <column name="DetailKit" type="REFERENCE">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Details</redundant_name>
       <dictionary_name>GenesisDetailKit</dictionary_name>

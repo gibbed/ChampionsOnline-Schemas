@@ -17,7 +17,7 @@
       <offset>4</offset>
       <default>1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 223A738 -->
       </static_define_list>
     </column>
     <column name="&#xA;" type="END" />

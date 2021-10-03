@@ -2,5 +2,16 @@
 <enum name="ActivityDisplayTags">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Monthly">1</element>
+    <element name="Daily">2</element>
+    <element name="Featured_Story">3</element>
+    <element name="Featured_Event">4</element>
+    <element name="Position_Event_Day">5</element>
+    <element name="Position_Event_Upper">6</element>
+    <element name="Position_Event_Lower">7</element>
+    <element name="Position_Event_Base">8</element>
+    <element name="Position_Event_Middle">9</element>
+    <element name="FeaturedEpisode">10</element>
+    <element name="LockboxEvent">11</element>
   </elements>
 </enum>

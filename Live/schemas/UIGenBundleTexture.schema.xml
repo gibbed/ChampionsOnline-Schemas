@@ -26,39 +26,39 @@
     <column name="TopLeftColor" type="INT">
       <offset>8</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="Color" type="INT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="TopRightColor" type="INT">
       <offset>12</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="BottomLeftColor" type="INT">
       <offset>16</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="BottomRightColor" type="INT">
       <offset>20</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>

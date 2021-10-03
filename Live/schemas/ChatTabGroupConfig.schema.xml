@@ -20,7 +20,7 @@
       <offset>0</offset>
       <flags>
         <flag>ESTRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>POOL_STRING_DB</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -43,7 +43,7 @@
     <column name="iCurrentTab" type="INT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
       </flags>
@@ -58,7 +58,7 @@
     <column name="uiTime" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Time</redundant_name>

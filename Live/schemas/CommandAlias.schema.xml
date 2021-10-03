@@ -27,7 +27,7 @@
     <column name="Comment" type="STRING">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Help</redundant_name>
     </column>

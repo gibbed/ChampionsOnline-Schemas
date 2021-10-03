@@ -36,6 +36,12 @@
     <column name="CommandString" type="STRING">
       <offset>36</offset>
     </column>
+    <column name="commandOutput" type="STRING">
+      <offset>40</offset>
+      <flags>
+        <flag>ESTRING</flag>
+      </flags>
+    </column>
     <column name="}" type="END" />
   </table>
 </parser>

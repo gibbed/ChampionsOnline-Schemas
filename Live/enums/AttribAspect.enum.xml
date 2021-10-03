@@ -10,12 +10,14 @@
     <element name="StrFactNeg">6888</element>
     <element name="StrFactBonus">8036</element>
     <element name="StrFactCrit">8036</element>
-    <element name="ResAbs">9184</element>
-    <element name="ResBase">10332</element>
-    <element name="ResFactPos">11480</element>
-    <element name="ResFactNeg">12628</element>
-    <element name="ResFactBonus">13776</element>
-    <element name="ResFactBlock">13776</element>
-    <element name="Immunity">14924</element>
+    <element name="StrMult">9184</element>
+    <element name="StrAdd">10332</element>
+    <element name="ResAbs">11480</element>
+    <element name="ResBase">12628</element>
+    <element name="ResFactPos">13776</element>
+    <element name="ResFactNeg">14924</element>
+    <element name="ResFactBonus">16072</element>
+    <element name="ResFactBlock">16072</element>
+    <element name="Immunity">17220</element>
   </elements>
 </enum>

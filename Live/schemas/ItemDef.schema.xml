@@ -77,7 +77,7 @@
     <column name="Flags" type="INT">
       <offset>104</offset>
       <static_define_list external="ItemDefFlag" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Type" type="INT">
       <offset>108</offset>
@@ -90,7 +90,7 @@
     <column name="Gemtype" type="INT">
       <offset>116</offset>
       <static_define_list external="ItemGemType" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="RestrictBagID" type="INTARRAY">
       <offset>120</offset>
@@ -99,7 +99,7 @@
     <column name="RestrictBag2ID" type="INTARRAY">
       <offset>120</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RestrictBagID</redundant_name>
       <static_define_list external="InvBagIDs" />
@@ -220,7 +220,7 @@
     <column name="RewardTable" type="OPTIONALSTRUCT">
       <offset>236</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RewardPackInfo</redundant_name>
       <subtable external="RewardPackInfo" />
@@ -240,7 +240,7 @@
     <column name="Group" type="INT">
       <offset>252</offset>
       <static_define_list external="ItemPowerGroup" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="DyeColor0" type="F32FIXEDARRAY">
       <offset>256</offset>
@@ -284,7 +284,7 @@
     <column name="Recipe" type="REFERENCE">
       <offset>324</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CraftRecipe</redundant_name>
       <dictionary_name>ItemDef</dictionary_name>
@@ -360,7 +360,7 @@
     <column name="UniqueItemSet" type="BIT">
       <offset>380</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
       <redundant_name>ItemSetMembersUnique</redundant_name>
@@ -447,6 +447,10 @@
     </column>
     <column name="PowerHue" type="F32">
       <offset>432</offset>
+    </column>
+    <column name="ItemEquipCooldown" type="INT">
+      <offset>436</offset>
+      <default>-1</default>
     </column>
     <column name="Slot" type="IGNORE" />
     <column name="SubType" type="IGNORE" />

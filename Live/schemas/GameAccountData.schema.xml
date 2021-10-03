@@ -122,7 +122,7 @@
     <column name="uTotalPlayedTime_AccountServer" type="INT">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -160,6 +160,14 @@
       </flags>
       <bit_offset>65539</bit_offset>
     </column>
+    <column name="bFraudProbation" type="BIT">
+      <offset>60</offset>
+      <flags>
+        <flag>SUBSCRIBE</flag>
+        <flag>PERSIST</flag>
+      </flags>
+      <bit_offset>65540</bit_offset>
+    </column>
     <column name="ChatConfig" type="EMBEDDEDSTRUCT">
       <offset>64</offset>
       <flags>
@@ -174,8 +182,15 @@
         <flag>PERSIST</flag>
       </flags>
     </column>
-    <column name="eaRecruiters" type="STRUCT">
+    <column name="iPlayerTypeConversionSeqID" type="INT">
       <offset>128</offset>
+      <flags>
+        <flag>SUBSCRIBE</flag>
+        <flag>PERSIST</flag>
+      </flags>
+    </column>
+    <column name="eaRecruiters" type="STRUCT">
+      <offset>132</offset>
       <flags>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -183,7 +198,7 @@
       <subtable external="RecruiterContainer" />
     </column>
     <column name="eaRecruits" type="STRUCT">
-      <offset>132</offset>
+      <offset>136</offset>
       <flags>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -191,14 +206,14 @@
       <subtable external="RecruitContainer" />
     </column>
     <column name="iFoundryTipBalance" type="INT">
-      <offset>136</offset>
+      <offset>140</offset>
       <flags>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>
       </flags>
     </column>
     <column name="eaTipRecords" type="STRUCT">
-      <offset>140</offset>
+      <offset>144</offset>
       <flags>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>

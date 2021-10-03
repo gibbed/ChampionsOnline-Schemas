@@ -17,10 +17,10 @@
       <offset>4</offset>
       <subtable external="FileVersion" />
     </column>
-    <column name="versions" type="STRUCT">
+    <column name="Versions" type="STRUCT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Version</redundant_name>
       <subtable external="load_FileVersion" />
@@ -32,7 +32,7 @@
     <column name="Children" type="STRUCT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>File</redundant_name>
       <subtable external="DirEntry" />
@@ -44,7 +44,7 @@
     <column name="checkouts" type="STRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Checkout</redundant_name>
       <subtable external="Checkout" />

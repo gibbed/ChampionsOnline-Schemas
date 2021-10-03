@@ -20,7 +20,7 @@
       </flags>
       <default>5</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 223A7F0 -->
       </static_define_list>
     </column>
     <column name="LineNum" type="LINENUM">

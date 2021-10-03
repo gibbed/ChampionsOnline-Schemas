@@ -17,7 +17,7 @@
     <column name="hBoneDef" type="REFERENCE">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Bone</redundant_name>
@@ -33,7 +33,7 @@
     <column name="hGeoDef" type="REFERENCE">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Geometry</redundant_name>
@@ -49,7 +49,7 @@
     <column name="hMatDef" type="REFERENCE">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Material</redundant_name>
@@ -66,7 +66,7 @@
       <offset>12</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>TextureGroup</redundant_name>
@@ -81,7 +81,7 @@
     <column name="hPatternTexture" type="REFERENCE">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>PatternTexture</redundant_name>
@@ -97,7 +97,7 @@
     <column name="hDetailTexture" type="REFERENCE">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>DetailTexture</redundant_name>
@@ -113,7 +113,7 @@
     <column name="hSpecularTexture" type="REFERENCE">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>SpecularTexture</redundant_name>
@@ -129,7 +129,7 @@
     <column name="hDiffuseTexture" type="REFERENCE">
       <offset>28</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>DiffuseTexture</redundant_name>
@@ -145,7 +145,7 @@
     <column name="hMovableTexture" type="REFERENCE">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableTexture</redundant_name>
@@ -168,7 +168,7 @@
     <column name="Color0" type="F32FIXEDARRAY">
       <offset>40</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Color0</redundant_name>
@@ -184,7 +184,7 @@
     <column name="Color1" type="F32FIXEDARRAY">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Color1</redundant_name>
@@ -200,7 +200,7 @@
     <column name="Color2" type="F32FIXEDARRAY">
       <offset>72</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Color2</redundant_name>
@@ -216,7 +216,7 @@
     <column name="Color3" type="F32FIXEDARRAY">
       <offset>88</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Color3</redundant_name>
@@ -238,7 +238,7 @@
     <column name="bCustomReflection" type="U8">
       <offset>108</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>CustomReflection</redundant_name>
@@ -252,7 +252,7 @@
     <column name="bCustomSpecularity" type="U8">
       <offset>109</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>CustomSpecularity</redundant_name>
@@ -267,7 +267,7 @@
     <column name="Reflection" type="U8FIXEDARRAY">
       <offset>110</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Reflection</redundant_name>
@@ -290,7 +290,7 @@
     <column name="eColorLink" type="INT">
       <offset>120</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ColorLink</redundant_name>
@@ -306,7 +306,7 @@
     <column name="eMaterialLink" type="INT">
       <offset>124</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MaterialLink</redundant_name>
@@ -321,7 +321,7 @@
     <column name="bGeoLink" type="U8">
       <offset>128</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>GeoLink</redundant_name>
@@ -335,7 +335,7 @@
     <column name="bNoShadow" type="U8">
       <offset>129</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>NoShadow</redundant_name>
@@ -379,7 +379,7 @@
     <column name="fMovableX" type="F32">
       <offset>156</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableX</redundant_name>
@@ -393,7 +393,7 @@
     <column name="fMovableY" type="F32">
       <offset>160</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableY</redundant_name>
@@ -408,7 +408,7 @@
     <column name="MovScaleX" type="F32">
       <offset>164</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableScaleX</redundant_name>
@@ -417,7 +417,7 @@
     <column name="fMovableScaleX" type="F32">
       <offset>164</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableScaleX</redundant_name>
@@ -433,7 +433,7 @@
     <column name="MovScaleY" type="F32">
       <offset>168</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableScaleY</redundant_name>
@@ -442,7 +442,7 @@
     <column name="fMovableScaleY" type="F32">
       <offset>168</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableScaleY</redundant_name>
@@ -457,7 +457,7 @@
     <column name="MovRotation" type="F32">
       <offset>172</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableRotation</redundant_name>
@@ -465,7 +465,7 @@
     <column name="fMovableRotation" type="F32">
       <offset>172</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>MovableRotation</redundant_name>
@@ -480,7 +480,7 @@
     <column name="eaExtraColors" type="STRUCT">
       <offset>176</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ExtraColor</redundant_name>
@@ -496,7 +496,7 @@
     <column name="eaExtraConstants" type="STRUCT">
       <offset>180</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ExtraValue</redundant_name>
@@ -512,7 +512,7 @@
     <column name="eaExtraTextures" type="STRUCT">
       <offset>184</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ExtraTexture</redundant_name>
@@ -528,7 +528,7 @@
     <column name="pClothLayer" type="OPTIONALSTRUCT">
       <offset>188</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Cloth</redundant_name>
@@ -544,7 +544,7 @@
     <column name="eControlledRandomLocks" type="INT">
       <offset>192</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ControlledRandomLocks</redundant_name>

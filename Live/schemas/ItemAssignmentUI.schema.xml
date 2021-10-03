@@ -14,25 +14,25 @@
     <column name="DisplayName" type="STRING">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="Description" type="STRING">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="ChainDisplayName" type="STRING">
       <offset>12</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="ChainDescription" type="STRING">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="ChainDepth" type="INT">
@@ -50,14 +50,14 @@
     <column name="MapDisplayName" type="STRING">
       <offset>36</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="MapName" type="STRING">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>REDUNDANTNAME</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <redundant_name>MapDisplayName</redundant_name>
     </column>
@@ -70,13 +70,13 @@
     <column name="OutcomeDisplayName" type="STRING">
       <offset>44</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="OutcomeDescription" type="STRING">
       <offset>48</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="uOutcomeDestroyed" type="INT">
@@ -85,7 +85,7 @@
     <column name="OutcomeDestroyedDescription" type="STRING">
       <offset>56</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="uOutcomeNewAssignment" type="INT">
@@ -94,7 +94,7 @@
     <column name="OutcomeNewAssignmentDescription" type="STRING">
       <offset>64</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="OutcomeNewAssignmentDef" type="REFERENCE">

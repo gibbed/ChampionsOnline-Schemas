@@ -79,7 +79,7 @@
     <column name="Flags" type="INT">
       <offset>64</offset>
       <static_define_list external="SpecialDialogFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="DelayIfInCombat" type="BOOLFLAG">
       <offset>68</offset>
@@ -104,7 +104,7 @@
     <column name="Condition:" type="OPTIONALSTRUCT">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Condition</redundant_name>

@@ -209,6 +209,9 @@
     <column name="ExtraTextureSwaps" type="STRINGARRAY">
       <offset>572</offset>
     </column>
+    <column name="MovementAnimationSpeedScale" type="F32">
+      <offset>580</offset>
+    </column>
     <column name="}" type="END" />
   </table>
 </parser>

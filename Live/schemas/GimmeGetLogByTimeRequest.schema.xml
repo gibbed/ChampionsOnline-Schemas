@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="GimmeGetLogByTimeRequest">
+  <table>
+    <column name="GimmeGetLogByTimeRequest" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Base" type="EMBEDDEDSTRUCT">
+      <offset>0</offset>
+      <subtable external="GimmeRPCRequestBase" />
+    </column>
+    <column name="paths" type="STRINGARRAY">
+      <offset>4</offset>
+    </column>
+    <column name="Branch" type="INT">
+      <offset>8</offset>
+    </column>
+    <column name="StartTimeSS2000" type="INT">
+      <offset>12</offset>
+    </column>
+    <column name="EndTimeSS2000" type="INT">
+      <offset>16</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

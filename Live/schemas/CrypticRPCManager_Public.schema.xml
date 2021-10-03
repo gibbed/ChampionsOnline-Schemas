@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="CrypticRPCManager_Public">
+  <table>
+    <column name="CrypticRPCManager_Public" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+      <format_strings>
+        <format_string name="HTML_DEF_FIELDS_TO_SHOW">State, LastConnectedTime, RemoteContainerType, RemoteIP</format_string>
+      </format_strings>
+    </column>
+    <column name="{" type="START" />
+    <column name="Name" type="STRING">
+      <offset>0</offset>
+      <flags>
+        <flag>KEY</flag>
+      </flags>
+    </column>
+    <column name="State" type="INT">
+      <offset>4</offset>
+      <static_define_list external="CrypticRPCState" />
+    </column>
+    <column name="TimeEnteredState" type="INT">
+      <offset>8</offset>
+      <format_strings>
+        <format_string name="HTML_SECS_AGO">1</format_string>
+      </format_strings>
+    </column>
+    <column name="LastConnectedTime" type="INT">
+      <offset>12</offset>
+      <format_strings>
+        <format_string name="HTML_SECS_AGO">1</format_string>
+      </format_strings>
+    </column>
+    <column name="RemoteCrypticRPCName" type="STRING">
+      <offset>16</offset>
+      <flags>
+        <flag>ESTRING</flag>
+      </flags>
+    </column>
+    <column name="RemoteContainerType" type="INT">
+      <offset>20</offset>
+      <static_define_list external="GlobalType" />
+    </column>
+    <column name="RemoteIP" type="INT">
+      <offset>24</offset>
+    </column>
+    <column name="CrypticRPCListenName" type="STRING">
+      <offset>28</offset>
+    </column>
+    <column name="Stats" type="OPTIONALSTRUCT">
+      <offset>32</offset>
+      <subtable external="CrypticRPCStats_PerManager" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

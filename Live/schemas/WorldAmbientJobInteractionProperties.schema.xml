@@ -42,7 +42,7 @@
     <column name="initialJob" type="BIT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SPECIAL_DEFAULT</flag>
       </flags>
       <redundant_name>initialJob</redundant_name>

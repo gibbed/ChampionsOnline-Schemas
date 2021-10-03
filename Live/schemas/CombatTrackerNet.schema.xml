@@ -33,7 +33,7 @@
     <column name="Flags" type="INT">
       <offset>28</offset>
       <static_define_list external="CombatTrackerFlag" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Delay" type="F32">
       <offset>32</offset>
@@ -44,7 +44,7 @@
     <column name="PowerDef" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PowerDef" />
     </column>

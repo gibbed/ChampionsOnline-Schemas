@@ -35,14 +35,14 @@
     <column name="Link" type="OPTIONALSTRUCT">
       <offset>28</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="NetLink" />
     </column>
     <column name="legacy" type="OPTIONALSTRUCT">
       <offset>32</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="HttpLegacySupport" />
     </column>

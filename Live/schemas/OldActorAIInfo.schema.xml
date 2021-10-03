@@ -14,7 +14,7 @@
     <column name="aiFSMName" type="REFERENCE">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FSM</redundant_name>
       <dictionary_name>FSM</dictionary_name>

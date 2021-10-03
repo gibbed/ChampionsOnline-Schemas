@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="RPCLoggingLevel">
+  <elements type="int">
+    <element name="NONE">0</element>
+    <element name="NORMAL">1</element>
+    <element name="VERBOSE">2</element>
+  </elements>
+</enum>

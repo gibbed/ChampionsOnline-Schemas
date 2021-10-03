@@ -21,7 +21,7 @@
     <column name="IsPlatform" type="INT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PlatformType</redundant_name>
       <static_define_list external="WorldPlatformType" />

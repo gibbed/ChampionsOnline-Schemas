@@ -67,7 +67,7 @@
     <column name="PlayerRank" type="INT">
       <offset>52</offset>
     </column>
-    <column name="ClassName" type="STRING">
+    <column name="className" type="STRING">
       <offset>56</offset>
       <flags>
         <flag>POOL_STRING</flag>

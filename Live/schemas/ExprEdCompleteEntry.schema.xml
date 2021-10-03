@@ -14,7 +14,7 @@
     <column name="typeString" type="STRING">
       <offset>4</offset>
     </column>
-    <column name="valueString" type="STRING">
+    <column name="ValueString" type="STRING">
       <offset>8</offset>
     </column>
     <column name="}" type="END" />

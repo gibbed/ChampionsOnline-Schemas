@@ -41,6 +41,9 @@
       <offset>24</offset>
       <static_define_list external="ComponentCountType" />
     </column>
+    <column name="SaveGemedItems" type="U8">
+      <offset>28</offset>
+    </column>
     <column name="}" type="END" />
   </table>
 </parser>

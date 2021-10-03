@@ -2,5 +2,21 @@
 <enum name="ItemTag">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Arms_Tan1">2</element>
+    <element name="Arms_Int1">3</element>
+    <element name="Arms_Int2">4</element>
+    <element name="Mysticism_Tan1">5</element>
+    <element name="Mysticism_Int1">6</element>
+    <element name="Mysticism_Int2">7</element>
+    <element name="Science_Tan1">8</element>
+    <element name="Science_Int1">9</element>
+    <element name="Science_Int2">10</element>
+    <element name="Bag">11</element>
+    <element name="Consumables">12</element>
+    <element name="Custom">13</element>
+    <element name="Conversion">14</element>
+    <element name="Action_Figure">15</element>
+    <element name="Power_Replace">16</element>
+    <element name="Devices">17</element>
   </elements>
 </enum>

@@ -16,25 +16,25 @@
     <column name="DescShort" type="STRING">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="DescLong" type="STRING">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="DescVeryLong" type="STRING">
       <offset>12</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="NameInternal" type="STRING">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="AutoDesc" type="STRING">
@@ -61,7 +61,7 @@
     <column name="LifetimeUsageLeft" type="INT">
       <offset>40</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LifetimeRemaining</redundant_name>
     </column>
@@ -75,7 +75,7 @@
     <column name="HasLifetimeUsage" type="BIT">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>HasLifetimeTimer</redundant_name>
       <bit_offset>65536</bit_offset>

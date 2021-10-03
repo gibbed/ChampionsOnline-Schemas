@@ -68,6 +68,8 @@
       <offset>32</offset>
       <flags>
         <flag>NO_NETSEND</flag>
+        <flag>PERSIST</flag>
+        <flag>READONLY_TRANSACT</flag>
       </flags>
       <bit_offset>65536</bit_offset>
     </column>

@@ -141,7 +141,7 @@
     <column name="PrivateMatch" type="BIT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChallengeMatch</redundant_name>
       <bit_offset>65541</bit_offset>

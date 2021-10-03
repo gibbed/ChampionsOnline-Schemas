@@ -30,7 +30,7 @@
         <flag>PERSIST</flag>
       </flags>
       <static_define_list external="PetRelationshipStatus" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="conID" type="INT">
       <offset>12</offset>
@@ -45,7 +45,7 @@
     <column name="hPet" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>
       </flags>

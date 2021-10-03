@@ -18,7 +18,7 @@
     <column name="hRegion" type="REFERENCE">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -38,7 +38,7 @@
     <column name="hCategory" type="REFERENCE">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>STRUCTPARAM</flag>
         <flag>SUBSCRIBE</flag>
         <flag>PERSIST</flag>

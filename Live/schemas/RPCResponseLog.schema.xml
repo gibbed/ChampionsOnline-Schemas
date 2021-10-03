@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="RPCResponseLog">
+  <table>
+    <column name="RPCResponseLog" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="CommandName" type="STRING">
+      <offset>0</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="RequestID" type="STRING">
+      <offset>4</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Type" type="INT">
+      <offset>8</offset>
+      <static_define_list external="RPCArgTypeForLogging" />
+    </column>
+    <column name="IntVal" type="INT64">
+      <offset>16</offset>
+    </column>
+    <column name="FloatVal" type="F32">
+      <offset>24</offset>
+    </column>
+    <column name="StrVal" type="STRING">
+      <offset>28</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="ErrorCode" type="INT">
+      <offset>32</offset>
+    </column>
+    <column name="ErrorString" type="STRING">
+      <offset>36</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="StructTypeName" type="STRING">
+      <offset>40</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="SimpleStructFields" type="STRUCT">
+      <offset>44</offset>
+      <subtable external="NameValuePair" />
+    </column>
+    <column name="Flag_ComplexStruct" type="BIT">
+      <offset>48</offset>
+      <bit_offset>65536</bit_offset>
+    </column>
+    <column name="Flag_NullStruct" type="BIT">
+      <offset>48</offset>
+      <bit_offset>65537</bit_offset>
+    </column>
+    <column name="Flag_Slow" type="BIT">
+      <offset>48</offset>
+      <bit_offset>65538</bit_offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

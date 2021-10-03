@@ -145,7 +145,7 @@
     <column name="Children" type="STRUCT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Child</redundant_name>
       <subtable external="UIGenChild" />
@@ -343,39 +343,39 @@
     <column name="TileTopLeftColor" type="INT">
       <offset>240</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="TileColor" type="INT">
       <offset>240</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TileTopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="TileTopRightColor" type="INT">
       <offset>244</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="TileBottomLeftColor" type="INT">
       <offset>248</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="TileBottomRightColor" type="INT">
       <offset>252</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -461,39 +461,39 @@
     <column name="HoveredOverlayTopLeftColor" type="INT">
       <offset>308</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="HoveredOverlayColor" type="INT">
       <offset>308</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>HoveredOverlayTopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="HoveredOverlayTopRightColor" type="INT">
       <offset>312</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="HoveredOverlayBottomLeftColor" type="INT">
       <offset>316</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="HoveredOverlayBottomRightColor" type="INT">
       <offset>320</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -621,7 +621,7 @@
     <column name="ColorModel" type="OPTIONALSTRUCT">
       <offset>400</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ColorModelBlock</redundant_name>
       <subtable external="Expression_StructParam" />

@@ -207,7 +207,7 @@
     <column name="eInteractionFlag" type="INT">
       <offset>168</offset>
       <static_define_list external="kCritterOverrideFlag" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="fMass" type="F32">
       <offset>172</offset>
@@ -218,7 +218,7 @@
     <column name="eCritterSubType" type="INT">
       <offset>180</offset>
       <static_define_list external="CrittterSubType" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="pcNemesisMinionCostumeSet" type="STRING">
       <offset>184</offset>

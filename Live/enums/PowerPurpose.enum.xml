@@ -3,5 +3,37 @@
   <elements type="int">
     <element name="None">-1</element>
     <element name="Uncategorized">0</element>
+    <element name="Energy_Builder">1</element>
+    <element name="Close_Attack">2</element>
+    <element name="Close_Area_Attack">3</element>
+    <element name="Ranged_Attack">4</element>
+    <element name="Ranged_Area_Attack">5</element>
+    <element name="Movement">6</element>
+    <element name="Crowd_Control">7</element>
+    <element name="Summon">8</element>
+    <element name="Pet">9</element>
+    <element name="Healing">10</element>
+    <element name="Active">11</element>
+    <element name="Buff_Self">12</element>
+    <element name="Buff_Targets">13</element>
+    <element name="Debuff">14</element>
+    <element name="Energy_Form">15</element>
+    <element name="Slotted">16</element>
+    <element name="Passive">17</element>
+    <element name="Form">18</element>
+    <element name="Block">19</element>
+    <element name="Energy_Unlock">20</element>
+    <element name="Ultimate">21</element>
+    <element name="Innate_Characteristic">22</element>
+    <element name="Talent">23</element>
+    <element name="Flight">24</element>
+    <element name="Superspeed">25</element>
+    <element name="Acrobatics">26</element>
+    <element name="Superjump">27</element>
+    <element name="Tunneling">28</element>
+    <element name="Swinging">29</element>
+    <element name="Teleport">30</element>
+    <element name="Costume_Transition">31</element>
+    <element name="Mastery">32</element>
   </elements>
 </enum>

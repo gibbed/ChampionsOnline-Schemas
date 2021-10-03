@@ -2,5 +2,6 @@
 <enum name="PTRespecGroupType">
   <elements type="int">
     <element name="kPTRespecGroup_ALL">0</element>
+    <element name="NonPowers">1</element>
   </elements>
 </enum>

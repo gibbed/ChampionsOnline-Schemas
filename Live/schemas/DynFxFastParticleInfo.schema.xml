@@ -291,7 +291,7 @@
     <column name="BlendMode" type="INT">
       <offset>1196</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 223A888 -->
       </static_define_list>
     </column>
     <column name="}" type="END" />

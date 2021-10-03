@@ -35,12 +35,40 @@
     <column name="MyGenericMonitoringPort" type="INT">
       <offset>24</offset>
     </column>
-    <column name="Version" type="STRING">
+    <column name="MyMachineName" type="STRING">
       <offset>28</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="MyShardName" type="STRING">
+      <offset>32</offset>
+    </column>
+    <column name="MyClusterName" type="STRING">
+      <offset>36</offset>
+    </column>
+    <column name="MyOverlord" type="STRING">
+      <offset>40</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="MyPID" type="INT">
+      <offset>44</offset>
+    </column>
+    <column name="MyExeName" type="STRING">
+      <offset>48</offset>
+    </column>
+    <column name="Version" type="STRING">
+      <offset>52</offset>
     </column>
     <column name="Status" type="EMBEDDEDSTRUCT">
-      <offset>32</offset>
+      <offset>56</offset>
       <subtable external="StatusReporting_GenericServerStatus" />
+    </column>
+    <column name="FixedNameValuePairs" type="OPTIONALSTRUCT">
+      <offset>84</offset>
+      <subtable external="NameValuePairList" />
     </column>
     <column name="}" type="END" />
   </table>

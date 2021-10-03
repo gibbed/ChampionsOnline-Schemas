@@ -145,7 +145,7 @@
     <column name="Children" type="STRUCT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Child</redundant_name>
       <subtable external="UIGenChild" />

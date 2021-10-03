@@ -30,6 +30,8 @@
     <element name="CONTROLLER_AUTO_SETTING_NEWCMDINIT">26</element>
     <element name="CONTROLLER_SETS_AUTO_SETTING">27</element>
     <element name="LAST_AUTOSETTING">28</element>
-    <element name="">29</element>
+    <element name="CRYPTICRPC">29</element>
+    <element name="MACHINEMONITOR">30</element>
+    <element name="JSONRPC">31</element>
   </elements>
 </enum>

@@ -46,7 +46,7 @@
     <column name="Condition:" type="OPTIONALSTRUCT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Condition</redundant_name>
@@ -62,7 +62,7 @@
     <column name="CanChooseCondition:" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>CanChooseCondition</redundant_name>

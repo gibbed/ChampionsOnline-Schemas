@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="UIGenType">
+  <parent>GCLGenTypes</parent>
   <elements type="int">
     <element name="Box">1</element>
     <element name="Text">2</element>
@@ -18,13 +19,5 @@
     <element name="TabGroup">15</element>
     <element name="ColorChooser">16</element>
     <element name="ScrollView">17</element>
-    <element name="MiniMap_Old">18</element>
-    <element name="Entity">19</element>
-    <element name="Object">20</element>
-    <element name="ChatLog">21</element>
-    <element name="Compass">22</element>
-    <element name="Map">23</element>
-    <element name="Waypoint">24</element>
-    <element name="Paperdoll">25</element>
   </elements>
 </enum>

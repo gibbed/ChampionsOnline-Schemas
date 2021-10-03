@@ -119,7 +119,7 @@
     <column name="bitfield_u32" type="INT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
     </column>
     <column name="lod_vertex_light_colors" type="STRUCT">

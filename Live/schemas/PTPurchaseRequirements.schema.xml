@@ -30,7 +30,7 @@
     <column name="CharacterLevel" type="INT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>USEROPTIONBIT_1</flag>
       </flags>
       <redundant_name>TableLevel</redundant_name>
@@ -47,7 +47,7 @@
     <column name="MinPointsSpentInThisTree" type="INT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PointsSpentInThisTree</redundant_name>
     </column>

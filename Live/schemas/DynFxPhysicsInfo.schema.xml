@@ -32,7 +32,7 @@
     <column name="Type" type="INT">
       <offset>24</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 224F168 -->
       </static_define_list>
     </column>
     <column name="PhysicalProperty" type="STRING">

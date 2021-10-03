@@ -696,6 +696,14 @@
       <offset>36</offset>
       <bit_offset>65561</bit_offset>
     </column>
+    <column name="UseItemEquipCooldowns" type="BIT">
+      <offset>36</offset>
+      <bit_offset>65562</bit_offset>
+    </column>
+    <column name="ForceBoAMicrotransactionItemsDuringProbation" type="BIT">
+      <offset>36</offset>
+      <bit_offset>65563</bit_offset>
+    </column>
     <column name="FontSmallSize" type="INT">
       <offset>40</offset>
     </column>
@@ -853,21 +861,21 @@
     <column name="MicrotransactionCurrency" type="STRING">
       <offset>220</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MicrotransactionDefaultCurrency</redundant_name>
     </column>
     <column name="MTCurrency" type="STRING">
       <offset>220</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MicrotransactionDefaultCurrency</redundant_name>
     </column>
     <column name="DefaultCurrency" type="STRING">
       <offset>220</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MicrotransactionDefaultCurrency</redundant_name>
     </column>

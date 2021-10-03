@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="MachineMonitor_ToServer_CommandEnum">
+  <elements type="int">
+    <element name="KEYSTROKES">0</element>
+    <element name="COMMAND">1</element>
+    <element name="SHUTDOWN_GRACEFUL">2</element>
+    <element name="SHUTDOWN_IMMEDIATE">3</element>
+    <element name="EXECUTE_DEBUG_MENU_COMMAND">4</element>
+  </elements>
+</enum>

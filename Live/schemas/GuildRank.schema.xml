@@ -23,7 +23,7 @@
     <column name="Permissions" type="INT">
       <offset>8</offset>
       <static_define_list external="GuildRankPermissions" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="}" type="END" />
   </table>

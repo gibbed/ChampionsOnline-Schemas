@@ -38,7 +38,7 @@
       <offset>20</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Icon</redundant_name>
     </column>

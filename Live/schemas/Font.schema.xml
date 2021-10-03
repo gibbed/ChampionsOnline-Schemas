@@ -11,7 +11,7 @@
       <offset>4</offset>
       <default>16</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20D8420 -->
       </static_define_list>
     </column>
     <column name="Italic" type="BOOLFLAG">
@@ -23,7 +23,7 @@
     <column name="Outline" type="U8">
       <offset>10</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20D83B8 -->
       </static_define_list>
     </column>
     <column name="DropShadow" type="U8FIXEDARRAY">

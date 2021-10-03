@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="CrypticRPCResponse">
+  <table>
+    <column name="CrypticRPCResponse" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="CommandName" type="STRING">
+      <offset>0</offset>
+    </column>
+    <column name="RequestID" type="INT64">
+      <offset>8</offset>
+      <flags>
+        <flag>KEY</flag>
+      </flags>
+    </column>
+    <column name="SenderLocalID" type="INT">
+      <offset>16</offset>
+    </column>
+    <column name="Flags" type="INT">
+      <offset>20</offset>
+      <static_define_list external="CrypticRPCRequestFlags" />
+    </column>
+    <column name="returnAddress" type="EMBEDDEDSTRUCT">
+      <offset>24</offset>
+      <subtable external="CrypticRPCReturnAddress" />
+    </column>
+    <column name="VerboseServerName" type="STRING">
+      <offset>52</offset>
+    </column>
+    <column name="NonFatalErrors" type="STRUCT">
+      <offset>56</offset>
+      <subtable external="CrypticRPCError" />
+    </column>
+    <column name="FatalErrors" type="STRUCT">
+      <offset>60</offset>
+      <subtable external="CrypticRPCError" />
+    </column>
+    <column name="ReturnType" type="INT">
+      <offset>68</offset>
+      <static_define_list external="CrypticRPCArgumentType" />
+    </column>
+    <column name="IntVal" type="INT64">
+      <offset>72</offset>
+    </column>
+    <column name="FloatVal" type="F32">
+      <offset>80</offset>
+    </column>
+    <column name="StrVal" type="STRING">
+      <offset>84</offset>
+    </column>
+    <column name="TPIName" type="STRING">
+      <offset>88</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

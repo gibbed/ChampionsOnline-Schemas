@@ -36,9 +36,9 @@
       <offset>32</offset>
       <min_bits>5</min_bits>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 21E6AE0 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="UnlitContribution" type="F32">
       <offset>36</offset>

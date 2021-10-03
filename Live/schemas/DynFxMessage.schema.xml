@@ -17,9 +17,9 @@
       <offset>4</offset>
       <default>1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 223A738 -->
       </static_define_list>
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Distance" type="F32">
       <offset>8</offset>

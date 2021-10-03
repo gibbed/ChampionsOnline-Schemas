@@ -120,7 +120,7 @@
     <column name="ppItems" type="STRUCT">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
         <flag>NO_INDEX</flag>
       </flags>

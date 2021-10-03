@@ -39,7 +39,7 @@
     <column name="PowerMax" type="INT">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MaxPropPowers</redundant_name>
     </column>

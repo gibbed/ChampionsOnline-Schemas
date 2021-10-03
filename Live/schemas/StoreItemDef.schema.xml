@@ -70,7 +70,7 @@
     <column name="PurchaseTime" type="INT">
       <offset>76</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ResearchTime</redundant_name>
     </column>

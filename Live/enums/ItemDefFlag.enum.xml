@@ -24,7 +24,7 @@
     <element name="SetMissionOnCreate">1048576</element>
     <element name="ScaleWithCritterScaling">2097152</element>
     <element name="CantDiscard">4194304</element>
-    <element name="DoppelgangerPet">8388608</element>
+    <element name="CannotMoveDuringCooldown">8388608</element>
     <element name="CostumeHideable">16777216</element>
     <element name="UniqueEquipOnePerBag">33554432</element>
     <element name="LockToRestrictBags">67108864</element>

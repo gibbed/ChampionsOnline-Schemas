@@ -2,5 +2,8 @@
 <enum name="PlayerStatCategory">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Damage">1</element>
+    <element name="Duels">2</element>
+    <element name="Kills">3</element>
   </elements>
 </enum>

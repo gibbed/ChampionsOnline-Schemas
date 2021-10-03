@@ -33,7 +33,7 @@
     <column name="DestinationNode" type="REFERENCE">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Node</redundant_name>
       <dictionary_name>GameProgressionNodeDef</dictionary_name>

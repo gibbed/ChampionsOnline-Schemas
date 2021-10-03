@@ -31,7 +31,7 @@
     <column name="FakeEnt" type="OPTIONALSTRUCT">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>

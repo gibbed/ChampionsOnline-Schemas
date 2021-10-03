@@ -16,7 +16,7 @@
       <offset>0</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Anim</redundant_name>
     </column>
@@ -31,7 +31,7 @@
     <column name="CombatFSM" type="REFERENCE">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SecondaryFSM</redundant_name>
       <dictionary_name>FSM</dictionary_name>
@@ -43,7 +43,7 @@
     <column name="IgnoreCondition" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>IgnoreConditionBlock</redundant_name>
       <subtable external="Expression_StructParam" />

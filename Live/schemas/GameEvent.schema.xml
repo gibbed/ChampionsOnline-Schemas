@@ -122,7 +122,7 @@
     <column name="Sources" type="STRUCT">
       <offset>92</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="GameEventParticipant" />
     </column>
@@ -230,7 +230,7 @@
     <column name="Targets" type="STRUCT">
       <offset>172</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="GameEventParticipant" />
     </column>
@@ -431,7 +431,7 @@
     <column name="ChainEvent" type="OPTIONALSTRUCT">
       <offset>380</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="GameEvent" />
     </column>

@@ -69,7 +69,7 @@
     <column name="eaMapRevealInfos" type="STRUCT">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>USEROPTIONBIT_2</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -103,7 +103,7 @@
     <column name="eaNotifySettings" type="STRUCT">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
       </flags>
@@ -158,7 +158,7 @@
     <column name="eaBindProfiles" type="STRUCT">
       <offset>72</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
       </flags>

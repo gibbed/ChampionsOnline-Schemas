@@ -23,7 +23,7 @@
     <column name="Lines" type="STRUCT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>EDIT_ONLY</flag>
       </flags>
       <redundant_name>Statement</redundant_name>

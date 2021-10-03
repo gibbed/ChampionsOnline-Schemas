@@ -14,7 +14,7 @@
     <column name="interiorChangeContactType" type="INT">
       <offset>4</offset>
       <static_define_list external="ContactFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="interiorChangeCost" type="INT">
       <offset>8</offset>

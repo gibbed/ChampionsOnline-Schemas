@@ -13,7 +13,7 @@
     <column name="StackGroup" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="UIStackGroupData" />
     </column>

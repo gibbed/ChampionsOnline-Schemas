@@ -18,7 +18,7 @@
     <column name="PlayingStyles" type="STRINGARRAY">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="FilterString" type="STRING">

@@ -69,7 +69,7 @@
     <column name="Def" type="OPTIONALSTRUCT">
       <offset>76</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="UIGenMapIconDef" />
     </column>

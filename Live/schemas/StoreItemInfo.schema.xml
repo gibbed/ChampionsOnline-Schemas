@@ -10,7 +10,7 @@
     <column name="Item" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
         <flag>CLIENT_ONLY</flag>
       </flags>
       <subtable external="Item" />
@@ -29,7 +29,7 @@
     <column name="FailsRequirements" type="INT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CanBuyError</redundant_name>
       <static_define_list external="StoreCanBuyError" />
@@ -112,7 +112,7 @@
     <column name="PurchaseTime" type="INT">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ResearchTime</redundant_name>
     </column>

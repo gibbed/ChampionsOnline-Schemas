@@ -25,7 +25,7 @@
     <column name="uAssignmentID" type="INT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
       </flags>
@@ -41,7 +41,7 @@
     <column name="uNewAssignmentID" type="INT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
       </flags>

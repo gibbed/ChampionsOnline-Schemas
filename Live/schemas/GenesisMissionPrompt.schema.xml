@@ -37,7 +37,7 @@
     <column name="ShowWhen" type="INT">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>whenType</redundant_name>
       <static_define_list external="GenesisWhenType" />
@@ -45,7 +45,7 @@
     <column name="SpawnWhen" type="INT">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>whenType</redundant_name>
       <static_define_list external="GenesisWhenType" />
@@ -63,14 +63,14 @@
     <column name="ShowWhenChallengeName" type="STRINGARRAY">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenChallengeName</redundant_name>
     </column>
     <column name="SpawnWhenChallengeName" type="STRINGARRAY">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenChallengeName</redundant_name>
     </column>
@@ -80,7 +80,7 @@
     <column name="ShowWhenChallengeNumToComplete" type="INT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenChallengeNumToComplete</redundant_name>
     </column>
@@ -91,7 +91,7 @@
     <column name="ShowWhenRoomName" type="STRUCT">
       <offset>40</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenRoomName</redundant_name>
       <subtable external="GenesisWhenRoom" />
@@ -99,7 +99,7 @@
     <column name="SpawnWhenRoomName" type="STRUCT">
       <offset>40</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenRoomName</redundant_name>
       <subtable external="GenesisWhenRoom" />
@@ -110,14 +110,14 @@
     <column name="ShowWhenObjectiveName" type="STRINGARRAY">
       <offset>44</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenObjectiveName</redundant_name>
     </column>
     <column name="SpawnWhenObjectiveName" type="STRINGARRAY">
       <offset>44</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenObjectiveName</redundant_name>
     </column>
@@ -127,14 +127,14 @@
     <column name="ShowWhenPromptName" type="STRINGARRAY">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenPromptName</redundant_name>
     </column>
     <column name="SpawnWhenPromptName" type="STRINGARRAY">
       <offset>48</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>WhenPromptName</redundant_name>
     </column>
@@ -226,7 +226,7 @@
     <column name="UsePetCostume" type="INT">
       <offset>132</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CostumeType</redundant_name>
       <static_define_list external="GenesisMissionCostumeType" />
@@ -276,7 +276,7 @@
     <column name="DialogFlags" type="INT">
       <offset>184</offset>
       <static_define_list external="SpecialDialogFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Action" type="STRUCT">
       <offset>188</offset>

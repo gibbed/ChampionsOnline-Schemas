@@ -69,7 +69,7 @@
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="ClassName" type="STRING">
+    <column name="className" type="STRING">
       <offset>52</offset>
       <flags>
         <flag>POOL_STRING</flag>

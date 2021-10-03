@@ -11,21 +11,27 @@
       <offset>16</offset>
       <default>-1</default>
     </column>
-    <column name="Sort" type="INT">
+    <column name="eaastrSounds" type="STRINGARRAY">
       <offset>20</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Sort" type="INT">
+      <offset>24</offset>
       <static_define_list external="UISortType" />
     </column>
     <column name="uiFrameLastUpdate" type="INT">
-      <offset>24</offset>
-    </column>
-    <column name="uiFrameLastBadMemoryError" type="INT">
       <offset>28</offset>
     </column>
-    <column name="ManagedStructures" type="U8">
+    <column name="uiFrameLastBadMemoryError" type="INT">
       <offset>32</offset>
     </column>
+    <column name="ManagedStructures" type="U8">
+      <offset>36</offset>
+    </column>
     <column name="ManagedPointer" type="U8">
-      <offset>33</offset>
+      <offset>37</offset>
     </column>
     <column name="}" type="END" />
   </table>

@@ -1,4 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="LoreCategory">
-  <elements type="int" />
+  <elements type="int">
+    <element name="None">0</element>
+    <element name="Drdestroyer">1</element>
+    <element name="Kingsofedom">2</element>
+    <element name="Crownsofkrim">3</element>
+    <element name="Viper">4</element>
+    <element name="Teleios">5</element>
+    <element name="Aliens">6</element>
+    <element name="Mechanon">7</element>
+    <element name="Therakiel">8</element>
+    <element name="Rampage">9</element>
+    <element name="Qliphoth">10</element>
+    <element name="Serial">11</element>
+  </elements>
 </enum>

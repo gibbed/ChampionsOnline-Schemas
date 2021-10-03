@@ -11,6 +11,16 @@
       <offset>0</offset>
       <subtable external="CheckinInfo" />
     </column>
+    <column name="endCheckin" type="INT">
+      <offset>4</offset>
+    </column>
+    <column name="EndTime" type="INT">
+      <offset>4</offset>
+      <flags>
+        <flag>REDUNDANTNAME</flag>
+      </flags>
+      <redundant_name>endCheckin</redundant_name>
+    </column>
     <column name="}" type="END" />
   </table>
 </parser>

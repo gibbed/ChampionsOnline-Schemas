@@ -28,7 +28,7 @@
     <column name="ActorData" type="STRUCT">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChildParam</redundant_name>
       <subtable external="GenesisInstancedChildParams" />

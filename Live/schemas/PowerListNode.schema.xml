@@ -26,28 +26,28 @@
     <column name="Tree" type="OPTIONALSTRUCT">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PowerTree" />
     </column>
     <column name="Node" type="OPTIONALSTRUCT">
       <offset>20</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PTNode" />
     </column>
     <column name="Power" type="OPTIONALSTRUCT">
       <offset>24</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Power" />
     </column>
     <column name="Ent" type="OPTIONALSTRUCT">
       <offset>28</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>
@@ -81,14 +81,14 @@
     <column name="TrainingInfo" type="OPTIONALSTRUCT">
       <offset>56</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="CharacterTraining" />
     </column>
     <column name="RequiredMicroTransaction" type="OPTIONALSTRUCT">
       <offset>60</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="MicroTransactionDef" />
     </column>

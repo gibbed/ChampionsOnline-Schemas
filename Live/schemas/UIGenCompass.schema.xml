@@ -145,7 +145,7 @@
     <column name="Children" type="STRUCT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Child</redundant_name>
       <subtable external="UIGenChild" />
@@ -327,7 +327,7 @@
       <offset>236</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -335,7 +335,7 @@
       <offset>240</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -343,7 +343,7 @@
       <offset>244</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -351,7 +351,7 @@
       <offset>248</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -359,7 +359,7 @@
       <offset>252</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -367,7 +367,7 @@
       <offset>256</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -375,7 +375,7 @@
       <offset>260</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -391,7 +391,7 @@
       <offset>268</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -407,7 +407,7 @@
       <offset>276</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>

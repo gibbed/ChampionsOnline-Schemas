@@ -17,7 +17,7 @@
     <column name="Def" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="QueueDef" />
     </column>
@@ -78,7 +78,7 @@
     <column name="Params" type="OPTIONALSTRUCT">
       <offset>96</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="QueueInstanceParams" />
     </column>
@@ -106,7 +106,7 @@
     <column name="uiMapID" type="INT64">
       <offset>120</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MapKey</redundant_name>
     </column>

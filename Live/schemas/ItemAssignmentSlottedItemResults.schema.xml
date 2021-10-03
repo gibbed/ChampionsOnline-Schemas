@@ -24,7 +24,7 @@
     <column name="uItemID" type="INT64">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>ItemID</redundant_name>
@@ -39,7 +39,7 @@
     <column name="bNewAssignment" type="BIT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>NewAssignment</redundant_name>
@@ -55,7 +55,7 @@
     <column name="bDestroyed" type="BIT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Destroyed</redundant_name>

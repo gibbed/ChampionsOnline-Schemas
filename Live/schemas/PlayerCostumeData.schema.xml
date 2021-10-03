@@ -25,7 +25,7 @@
     <column name="iActiveCostume" type="U8">
       <offset>1</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_AND_TEAM_ONLY</flag>
         <flag>PERSIST</flag>
@@ -43,7 +43,7 @@
     <column name="iSlotSetVersion" type="U8">
       <offset>2</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
@@ -63,7 +63,7 @@
       <offset>4</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_ONLY</flag>
         <flag>PERSIST</flag>
@@ -83,7 +83,7 @@
     <column name="eaCostumeSlots" type="STRUCT">
       <offset>8</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_AND_TEAM_ONLY</flag>
         <flag>PERSIST</flag>
@@ -104,7 +104,7 @@
     <column name="eaUnlockedCostumeRefs" type="STRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_AND_TEAM_ONLY</flag>
         <flag>PERSIST</flag>
@@ -123,7 +123,7 @@
     <column name="uiValidateTag" type="INT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>

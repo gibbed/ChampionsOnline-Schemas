@@ -39,28 +39,36 @@
       <offset>8036</offset>
       <subtable external="CharacterAttribs" />
     </column>
-    <column name="attrResAbs" type="EMBEDDEDSTRUCT">
+    <column name="attrStrMult" type="EMBEDDEDSTRUCT">
       <offset>9184</offset>
       <subtable external="CharacterAttribs" />
     </column>
-    <column name="attrResBase" type="EMBEDDEDSTRUCT">
+    <column name="attrStrAdd" type="EMBEDDEDSTRUCT">
       <offset>10332</offset>
       <subtable external="CharacterAttribs" />
     </column>
-    <column name="attrResFactPos" type="EMBEDDEDSTRUCT">
+    <column name="attrResAbs" type="EMBEDDEDSTRUCT">
       <offset>11480</offset>
       <subtable external="CharacterAttribs" />
     </column>
-    <column name="attrResFactNeg" type="EMBEDDEDSTRUCT">
+    <column name="attrResBase" type="EMBEDDEDSTRUCT">
       <offset>12628</offset>
       <subtable external="CharacterAttribs" />
     </column>
-    <column name="attrResFactBonus" type="EMBEDDEDSTRUCT">
+    <column name="attrResFactPos" type="EMBEDDEDSTRUCT">
       <offset>13776</offset>
       <subtable external="CharacterAttribs" />
     </column>
-    <column name="attrImmunity" type="EMBEDDEDSTRUCT">
+    <column name="attrResFactNeg" type="EMBEDDEDSTRUCT">
       <offset>14924</offset>
+      <subtable external="CharacterAttribs" />
+    </column>
+    <column name="attrResFactBonus" type="EMBEDDEDSTRUCT">
+      <offset>16072</offset>
+      <subtable external="CharacterAttribs" />
+    </column>
+    <column name="attrImmunity" type="EMBEDDEDSTRUCT">
+      <offset>17220</offset>
       <subtable external="CharacterAttribs" />
     </column>
     <column name="}" type="END" />

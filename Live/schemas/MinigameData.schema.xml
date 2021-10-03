@@ -17,7 +17,7 @@
     <column name="pDaboBet" type="STRUCT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>DaboBets</redundant_name>
@@ -26,7 +26,7 @@
     <column name="eaDaboBets" type="STRUCT">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>DaboBets</redundant_name>

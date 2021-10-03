@@ -96,7 +96,7 @@
       <offset>76</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ActivityName</redundant_name>
     </column>

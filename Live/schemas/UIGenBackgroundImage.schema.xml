@@ -28,7 +28,7 @@
         <flag>STRUCTPARAM</flag>
       </flags>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -38,7 +38,7 @@
         <flag>STRUCTPARAM</flag>
       </flags>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -48,7 +48,7 @@
         <flag>STRUCTPARAM</flag>
       </flags>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -58,7 +58,7 @@
         <flag>STRUCTPARAM</flag>
       </flags>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>

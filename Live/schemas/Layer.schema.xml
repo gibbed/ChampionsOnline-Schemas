@@ -7,13 +7,13 @@
     <column name="Type" type="INT">
       <offset>4</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20D82A0 -->
       </static_define_list>
     </column>
     <column name="Stretch" type="INT">
       <offset>8</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20D8328 -->
       </static_define_list>
     </column>
     <column name="TextKey" type="STRING">
@@ -22,7 +22,7 @@
     <column name="Text" type="STRING">
       <offset>100</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
     </column>
     <column name="Image" type="STRING">
@@ -75,7 +75,7 @@
     <column name="SubBlend" type="INT">
       <offset>92</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20D8350 -->
       </static_define_list>
     </column>
     <column name="SubBlendWeight" type="F32">

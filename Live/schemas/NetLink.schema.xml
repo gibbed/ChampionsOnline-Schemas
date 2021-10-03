@@ -21,7 +21,7 @@
     <column name="Flags" type="INT">
       <offset>28</offset>
       <static_define_list external="LinkFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="ID" type="INT">
       <offset>32</offset>
@@ -225,6 +225,12 @@
     <column name="ClientType" type="INT">
       <offset>2556</offset>
       <static_define_list external="ClientType" />
+    </column>
+    <column name="GlobalName" type="STRING">
+      <offset>2560</offset>
+    </column>
+    <column name="CrypticRPCAccessLevel" type="INT">
+      <offset>2564</offset>
     </column>
     <column name="}" type="END" />
   </table>

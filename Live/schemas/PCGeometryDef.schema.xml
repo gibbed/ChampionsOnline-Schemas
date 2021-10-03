@@ -75,13 +75,13 @@
     <column name="RestrictedTo" type="U8">
       <offset>49</offset>
       <static_define_list external="PCRestriction" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="ColorChoices" type="U8">
       <offset>50</offset>
       <default>15</default>
       <static_define_list external="PCColorFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="HasAlpha" type="U8">
       <offset>51</offset>
@@ -178,7 +178,7 @@
     <column name="BodyColorSet" type="REFERENCE">
       <offset>112</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BodyColorSet0</redundant_name>
       <dictionary_name>CostumeColors</dictionary_name>
@@ -210,6 +210,12 @@
         <flag>GLOBAL_NAME</flag>
       </flags>
       <dictionary_name>CostumeGroupDict</dictionary_name>
+    </column>
+    <column name="AnimNodeAliasList" type="STRING">
+      <offset>140</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
     </column>
     <column name="}" type="END" />
   </table>

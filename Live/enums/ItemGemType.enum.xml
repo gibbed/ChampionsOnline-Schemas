@@ -1,7 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="ItemGemType">
   <elements type="int">
-    <element name="None">0</element>
     <element name="Any">-1</element>
+    <element name="None">0</element>
+    <element name="Enhancement">1</element>
+    <element name="EnhR1">2</element>
+    <element name="EnhR2">4</element>
+    <element name="EnhR3">8</element>
+    <element name="EnhR4">16</element>
+    <element name="EnhR5">32</element>
+    <element name="EnhR6">64</element>
+    <element name="EnhR7">128</element>
+    <element name="EnhR8">256</element>
+    <element name="EnhR9">512</element>
+    <element name="Armoring">1024</element>
+    <element name="OffensiveCore">2048</element>
+    <element name="DefensiveCore">4096</element>
+    <element name="UtilityCore">8192</element>
+    <element name="SupportSystem">16384</element>
+    <element name="DefensiveSystem">32768</element>
+    <element name="WeaponSystem">65536</element>
+    <element name="OffensiveR3">131072</element>
+    <element name="OffensiveR4">262144</element>
+    <element name="OffensiveR5">524288</element>
+    <element name="DefensiveR3">1048576</element>
+    <element name="DefensiveR4">2097152</element>
+    <element name="DefensiveR5">4194304</element>
+    <element name="UtilityR3">8388608</element>
+    <element name="UtilityR4">16777216</element>
+    <element name="UtilityR5">33554432</element>
   </elements>
 </enum>

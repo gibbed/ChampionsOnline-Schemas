@@ -14,14 +14,14 @@
     <column name="Mission" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Mission" />
     </column>
     <column name="CompletedMission" type="OPTIONALSTRUCT">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="CompletedMission" />
     </column>
@@ -32,7 +32,7 @@
     <column name="TeamMissions" type="STRUCT">
       <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="TeammateMission" />
     </column>
@@ -48,19 +48,19 @@
     <column name="TranslatedCategoryName" type="STRING">
       <offset>28</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="TranslatedUITypeName" type="STRING">
       <offset>32</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="IconName" type="STRING">
       <offset>36</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="PerkPoints" type="INT">
@@ -115,7 +115,7 @@
     <column name="Ent" type="OPTIONALSTRUCT">
       <offset>92</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>

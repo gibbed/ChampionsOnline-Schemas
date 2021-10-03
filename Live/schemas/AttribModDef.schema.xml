@@ -268,7 +268,7 @@
     <column name="ExprDurationBlock" type="OPTIONALSTRUCT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockDuration</redundant_name>
       <subtable external="Expression" />
@@ -276,7 +276,7 @@
     <column name="ExprDuration" type="OPTIONALSTRUCT">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockDuration</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -288,7 +288,7 @@
     <column name="ExprMagnitudeBlock" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockMagnitude</redundant_name>
       <subtable external="Expression" />
@@ -296,7 +296,7 @@
     <column name="ExprMagnitude" type="OPTIONALSTRUCT">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockMagnitude</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -323,7 +323,7 @@
         <flag>SERVER_ONLY</flag>
       </flags>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 20679E0 -->
       </static_define_list>
     </column>
     <column name="SensitivityStrength" type="F32">
@@ -353,7 +353,7 @@
     <column name="ExprRequiresBlock" type="OPTIONALSTRUCT">
       <offset>72</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockRequires</redundant_name>
       <subtable external="Expression" />
@@ -361,7 +361,7 @@
     <column name="ExprRequires" type="OPTIONALSTRUCT">
       <offset>72</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockRequires</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -373,7 +373,7 @@
     <column name="ExprAffectsBlock" type="OPTIONALSTRUCT">
       <offset>76</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockAffects</redundant_name>
       <subtable external="Expression" />
@@ -381,7 +381,7 @@
     <column name="ExprAffects" type="OPTIONALSTRUCT">
       <offset>76</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprBlockAffects</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -399,7 +399,7 @@
     <column name="Chance" type="OPTIONALSTRUCT">
       <offset>88</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ExprChanceBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -463,7 +463,7 @@
     <column name="ContinuingFxParam" type="STRUCT">
       <offset>128</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>ContinuingFXParamBlock</redundant_name>
@@ -493,7 +493,7 @@
     <column name="ConditionalFxParam" type="STRUCT">
       <offset>140</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>ConditionalFXParamBlock</redundant_name>
@@ -532,7 +532,7 @@
       <offset>160</offset>
       <bit_offset>1048576</bit_offset>
       <static_define_list external="CombatTrackerFlag" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Error" type="BIT">
       <offset>160</offset>
@@ -587,7 +587,7 @@
     <column name="EnhancementExtendDef" type="BIT">
       <offset>168</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>EnhancementExtension</redundant_name>
       <bit_offset>65549</bit_offset>

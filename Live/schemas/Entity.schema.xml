@@ -35,7 +35,7 @@
         <flag>SERVER_ONLY</flag>
       </flags>
       <static_define_list external="GlobalEntityFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="myDataEntityFlags" type="INT">
       <offset>28</offset>
@@ -44,7 +44,7 @@
         <flag>SERVER_ONLY</flag>
       </flags>
       <static_define_list external="GlobalEntityFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="myEntityFlags" type="INT">
       <offset>32</offset>
@@ -52,7 +52,7 @@
         <flag>SERVER_ONLY</flag>
       </flags>
       <static_define_list external="GlobalEntityFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="mySendFlags" type="INT">
       <offset>36</offset>
@@ -102,7 +102,7 @@
     <column name="isInvisiblePersistent" type="BIT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
         <flag>PERSIST</flag>
         <flag>NO_TRANSACT</flag>
@@ -196,7 +196,7 @@
     <column name="pInventory" type="OPTIONALSTRUCT">
       <offset>280</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_ONLY</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
@@ -208,7 +208,7 @@
     <column name="Inventory" type="OPTIONALSTRUCT">
       <offset>280</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>SELF_ONLY</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
@@ -293,7 +293,7 @@
     <column name="eGender" type="INT">
       <offset>360</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SUBSCRIBE</flag>
         <flag>LOGIN_SUBSCRIBE</flag>
         <flag>PERSIST</flag>
@@ -341,7 +341,7 @@
     <column name="currentNeighborhood" type="OPTIONALSTRUCT">
       <offset>596</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SELF_ONLY</flag>
       </flags>
       <redundant_name>Neighborhood</redundant_name>
@@ -357,7 +357,7 @@
     <column name="aibase" type="OPTIONALSTRUCT">
       <offset>604</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <subtable>
@@ -370,8 +370,8 @@
     <column name="AI" type="OPTIONALSTRUCT">
       <offset>604</offset>
       <flags>
-        <flag>ALIAS</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>REDUNDANTNAME</flag>
+        <flag>UNOWNED</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>aibase</redundant_name>

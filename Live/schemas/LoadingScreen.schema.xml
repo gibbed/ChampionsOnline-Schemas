@@ -27,7 +27,7 @@
       <offset>8</offset>
       <default>-1</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="Gen" type="REFERENCE">

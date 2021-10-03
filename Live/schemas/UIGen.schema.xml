@@ -386,7 +386,7 @@
       <offset>60</offset>
       <flags>
         <flag>NO_WRITE</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable>
         <table>
@@ -601,7 +601,7 @@
     <column name="GenState" type="OPTIONALPOLYMORPH">
       <offset>68</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>NO_WRITE</flag>
       </flags>
       <redundant_name>State</redundant_name>
@@ -709,7 +709,7 @@
     <column name="Transitions" type="STRUCT">
       <offset>96</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="UIGenAction" />
     </column>
@@ -740,7 +740,7 @@
     <column name="Parent" type="OPTIONALSTRUCT">
       <offset>124</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="UIGen" />
     </column>
@@ -757,7 +757,7 @@
     <column name="Vars" type="STRUCT">
       <offset>132</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Var</redundant_name>
       <subtable external="UIGenVarTypeGlob" />
@@ -769,7 +769,7 @@
     <column name="CopyVars" type="STRUCT">
       <offset>136</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>CopyVar</redundant_name>
       <subtable external="UIGenVarTypeGlob" />
@@ -808,7 +808,7 @@
     <column name="Priority" type="U8">
       <offset>274</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Priority</redundant_name>
     </column>

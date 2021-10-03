@@ -16,7 +16,7 @@
     <column name="ShortText" type="STRING">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>UIString</redundant_name>
     </column>

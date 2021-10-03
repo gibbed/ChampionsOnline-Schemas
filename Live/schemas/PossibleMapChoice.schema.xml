@@ -162,7 +162,7 @@
     <column name="uPartitionID" type="INT">
       <offset>96</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PartitionID</redundant_name>
     </column>

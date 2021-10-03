@@ -18,7 +18,7 @@
     <column name="ProductKeys" type="STRINGARRAY">
       <offset>132</offset>
     </column>
-    <column name="email" type="STRING">
+    <column name="Email" type="STRING">
       <offset>136</offset>
     </column>
     <column name="DisplayName" type="STRING">

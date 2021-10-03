@@ -118,7 +118,7 @@
     <column name="BodyColorSet" type="REFERENCE">
       <offset>164</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BodyColorSet0</redundant_name>
       <dictionary_name>CostumeColors</dictionary_name>
@@ -139,7 +139,7 @@
       <offset>180</offset>
       <default>15</default>
       <static_define_list external="PCColorFlags" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="DefaultBoneColorQuad" type="OPTIONALSTRUCT">
       <offset>184</offset>
@@ -163,7 +163,7 @@
     <column name="RestrictedTo" type="INT">
       <offset>204</offset>
       <static_define_list external="PCRestriction" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="PowerFX" type="U8">
       <offset>208</offset>

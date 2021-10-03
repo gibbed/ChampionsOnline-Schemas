@@ -16,6 +16,9 @@
     <column name="Shadow" type="U8">
       <offset>5</offset>
     </column>
+    <column name="FraudProbation" type="U8">
+      <offset>6</offset>
+    </column>
     <column name="}" type="END" />
   </table>
 </parser>

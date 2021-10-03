@@ -28,7 +28,7 @@
     <column name="Link" type="OPTIONALSTRUCT">
       <offset>272</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="NetLink" />
     </column>

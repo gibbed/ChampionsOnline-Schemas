@@ -16,7 +16,7 @@
     <column name="InheritAnim:" type="STRINGARRAY">
       <offset>0</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>INHERITANCE_STRUCT</flag>
       </flags>
       <redundant_name>inheritAnims</redundant_name>

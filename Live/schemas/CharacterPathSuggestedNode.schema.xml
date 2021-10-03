@@ -20,14 +20,14 @@
     <column name="Ranks" type="INT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MaxRanksToBuy</redundant_name>
     </column>
     <column name="Rank" type="INT">
       <offset>4</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MaxRanksToBuy</redundant_name>
     </column>

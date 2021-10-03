@@ -23,14 +23,14 @@
     <column name="RoomName" type="STRING">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LocationName</redundant_name>
     </column>
     <column name="PathName" type="STRING">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LocationName</redundant_name>
     </column>
@@ -68,7 +68,7 @@
     <column name="EpisodePartName" type="STRING">
       <offset>52</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>EpPartName</redundant_name>
     </column>

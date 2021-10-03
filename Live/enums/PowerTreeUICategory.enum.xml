@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="PowerTreeUICategory">
-  <elements type="int" />
+  <elements type="int">
+    <element name="EnergyProjector">0</element>
+    <element name="Gadgeteer">1</element>
+    <element name="MartialArts">2</element>
+    <element name="Mentalist">3</element>
+    <element name="Brick">4</element>
+    <element name="Mystic">5</element>
+    <element name="Travel">6</element>
+    <element name="Talents">7</element>
+    <element name="SpecTreeTier1">8</element>
+    <element name="SpecTreeTier2">9</element>
+  </elements>
 </enum>

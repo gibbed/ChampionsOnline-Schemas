@@ -79,7 +79,7 @@
     <column name="FaceAbsolute" type="INT">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FaceType</redundant_name>
       <static_define_list external="EntCreateFaceType" />
@@ -99,7 +99,7 @@
     <column name="AdjustOffsetByPitch" type="BIT">
       <offset>60</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>OffsetUsesPitchAndRoll</redundant_name>
       <bit_offset>65538</bit_offset>
@@ -111,7 +111,7 @@
     <column name="UseCreatorPitch" type="BIT">
       <offset>60</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>UseFacingPitch</redundant_name>
       <bit_offset>65539</bit_offset>

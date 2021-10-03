@@ -32,7 +32,7 @@
     <column name="Requires" type="OPTIONALSTRUCT">
       <offset>20</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="PTPurchaseRequirements" />
     </column>

@@ -70,7 +70,7 @@
       <offset>36</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BlockAnimKeyword</redundant_name>
     </column>
@@ -105,7 +105,7 @@
     <column name="StanceStickyFXParam" type="STRUCT">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>StanceStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -117,7 +117,7 @@
     <column name="PersistStanceStickyFXParam" type="STRUCT">
       <offset>60</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PersistStanceStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -129,7 +129,7 @@
     <column name="PersistStanceInactiveStickyFXParam" type="STRUCT">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PersistStanceInactiveStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -165,7 +165,7 @@
     <column name="StanceFlashFXParam" type="STRUCT">
       <offset>84</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>StanceFlashFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -177,7 +177,7 @@
     <column name="PersistStanceFlashFXParam" type="STRUCT">
       <offset>88</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PersistStanceFlashFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -192,7 +192,7 @@
       <offset>92</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChargeStickyBits</redundant_name>
     </column>
@@ -206,7 +206,7 @@
       <offset>96</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChargeStickyFX</redundant_name>
     </column>
@@ -217,7 +217,7 @@
     <column name="ChargeStickyFXParam" type="STRUCT">
       <offset>100</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChargeStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -225,7 +225,7 @@
     <column name="ChargeFXParam" type="STRUCT">
       <offset>100</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChargeStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -249,7 +249,7 @@
     <column name="ChargeFlashFXParam" type="STRUCT">
       <offset>112</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChargeFlashFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -273,7 +273,7 @@
     <column name="LungeStickyFXParam" type="STRUCT">
       <offset>124</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LungeStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -297,7 +297,7 @@
     <column name="LungeFlashFXParam" type="STRUCT">
       <offset>136</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LungeFlashFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -313,7 +313,7 @@
     <column name="PreactivateFXParam" type="STRUCT">
       <offset>144</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PreactivateFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -331,7 +331,7 @@
     <column name="PreactivateStickyFXParam" type="STRUCT">
       <offset>152</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PreactivateStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -361,7 +361,7 @@
     <column name="ActivateStickyFXParam" type="STRUCT">
       <offset>168</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ActivateStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -397,7 +397,7 @@
     <column name="ActivateFXParam" type="STRUCT">
       <offset>192</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ActivateFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -419,7 +419,7 @@
     <column name="PeriodicActivateFXParam" type="STRUCT">
       <offset>204</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>PeriodicActivateFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -443,7 +443,7 @@
     <column name="DeactivateFXParam" type="STRUCT">
       <offset>216</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>DeactivateFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -477,7 +477,7 @@
     <column name="TargetedFXParam" type="STRUCT">
       <offset>236</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>TargetedFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -501,7 +501,7 @@
     <column name="HitFXParam" type="STRUCT">
       <offset>248</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>HitFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -519,7 +519,7 @@
     <column name="HitStickyFXParam" type="STRUCT">
       <offset>256</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>HitStickyFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -534,7 +534,7 @@
       <offset>260</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BlockBits</redundant_name>
     </column>
@@ -548,7 +548,7 @@
       <offset>264</offset>
       <flags>
         <flag>POOL_STRING</flag>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BlockFX</redundant_name>
     </column>
@@ -559,7 +559,7 @@
     <column name="MissFXParamBlock" type="STRUCT">
       <offset>268</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BlockFXParamBlock</redundant_name>
       <subtable external="PowerFXParam" />
@@ -567,7 +567,7 @@
     <column name="BlockFXParam" type="STRUCT">
       <offset>268</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BlockFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -591,7 +591,7 @@
     <column name="DeathFXParam" type="STRUCT">
       <offset>280</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>DeathFXParamBlock</redundant_name>
       <subtable external="PowerFXParam_StructParam" />
@@ -672,7 +672,7 @@
     <column name="MovementFrameStart" type="INT">
       <offset>368</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SlideFrameStart</redundant_name>
     </column>
@@ -682,7 +682,7 @@
     <column name="MovementFrameCount" type="INT">
       <offset>372</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SlideFrameCount</redundant_name>
     </column>
@@ -692,7 +692,7 @@
     <column name="MovementDistance" type="F32">
       <offset>376</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SlideDistance</redundant_name>
     </column>
@@ -768,7 +768,7 @@
     <column name="NoPeriodicHitAnimKeyword" type="BIT">
       <offset>432</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NoPeriodicHitBits</redundant_name>
       <bit_offset>65543</bit_offset>
@@ -792,7 +792,7 @@
     <column name="DisableTurnToFaceTarget" type="BIT">
       <offset>432</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>DisableFaceActivate</redundant_name>
       <bit_offset>65547</bit_offset>
@@ -804,7 +804,7 @@
     <column name="FaceActivateAllowForward" type="BIT">
       <offset>432</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>LockFacingDuringActivate</redundant_name>
       <bit_offset>65548</bit_offset>
@@ -859,7 +859,7 @@
     <column name="ChooseNodesInRangeAndArc" type="BIT">
       <offset>432</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>NodeSelection</redundant_name>
       <bit_offset>196636</bit_offset>

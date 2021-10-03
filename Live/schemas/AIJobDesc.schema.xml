@@ -26,7 +26,7 @@
     <column name="JobRequires" type="OPTIONALSTRUCT">
       <offset>12</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>JobRequiresBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -38,7 +38,7 @@
     <column name="JobRating" type="OPTIONALSTRUCT">
       <offset>16</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>JobRatingBlock</redundant_name>
       <subtable external="Expression_StructParam" />

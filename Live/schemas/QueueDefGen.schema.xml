@@ -72,14 +72,14 @@
     <column name="KickLogoutTime" type="INT">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MissionReturnLogoutTime</redundant_name>
     </column>
     <column name="QueueKickLogoutTime" type="INT">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MissionReturnLogoutTime</redundant_name>
     </column>
@@ -264,7 +264,7 @@
     <column name="PrivateMatch" type="BIT">
       <offset>188</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ChallengeMatch</redundant_name>
       <bit_offset>65541</bit_offset>
@@ -387,7 +387,7 @@
     <column name="pRequires" type="OPTIONALSTRUCT">
       <offset>260</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Requires</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -399,7 +399,7 @@
     <column name="MissionReqFlags" type="INT">
       <offset>268</offset>
       <static_define_list external="QueueMissionReq" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="ClassRequired" type="STRUCT">
       <offset>272</offset>
@@ -420,7 +420,7 @@
     <column name="RequireGuild" type="BIT">
       <offset>280</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RequireSameGuild</redundant_name>
       <bit_offset>65537</bit_offset>
@@ -440,7 +440,7 @@
     <column name="pchMapName" type="STRINGARRAY">
       <offset>284</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MapName</redundant_name>
     </column>
@@ -458,7 +458,7 @@
     <column name="QueueCustomMapType" type="STRUCT">
       <offset>296</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>QueueCustomMapData</redundant_name>
       <subtable external="QueueCustomMapData" />
@@ -466,7 +466,7 @@
     <column name="QueueMapType" type="STRUCT">
       <offset>296</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>QueueCustomMapData</redundant_name>
       <subtable external="QueueCustomMapData" />

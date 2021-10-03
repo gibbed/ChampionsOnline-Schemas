@@ -47,7 +47,7 @@
     <column name="SpeedLow" type="F32">
       <offset>104</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Speed</redundant_name>
       <default>1</default>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="ChatBlacklistUpdate">
+  <elements type="int">
+    <element name="REPLACE">0</element>
+    <element name="ADD">1</element>
+    <element name="REMOVE">2</element>
+  </elements>
+</enum>

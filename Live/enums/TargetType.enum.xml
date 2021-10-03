@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="TargetType">
+  <parent>FightClubTargetType</parent>
   <elements type="int">
     <element name="Alive">1</element>
     <element name="Self">2</element>
@@ -19,6 +20,5 @@
     <element name="Untargetable">32768</element>
     <element name="NearDeath">65536</element>
     <element name="Ridable">131072</element>
-    <element name="kTargetType_PlaceHolder">262144</element>
   </elements>
 </enum>

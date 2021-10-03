@@ -2,5 +2,36 @@
 <enum name="ItemAssignmentWeightType">
   <elements type="int">
     <element name="Default">0</element>
+    <element name="Outcome_Crit">1</element>
+    <element name="Outcome_Success_Auto">2</element>
+    <element name="Outcome_Success_Easy">3</element>
+    <element name="Outcome_Success_Normal">4</element>
+    <element name="Outcome_Success_Hard">5</element>
+    <element name="Outcome_Success_Veryhard">6</element>
+    <element name="Outcome_Fail_Easy">7</element>
+    <element name="Outcome_Fail_Normal">8</element>
+    <element name="Outcome_Fail_Hard">9</element>
+    <element name="Outcome_Fail_Veryhard">10</element>
+    <element name="Outcome_Pos_Minor">11</element>
+    <element name="Outcome_Pos_Major">12</element>
+    <element name="Outcome_Neg_Minor">13</element>
+    <element name="Outcome_Neg_Major">14</element>
+    <element name="Availability_Test">15</element>
+    <element name="Availability_None">16</element>
+    <element name="Availability_Map_All_Common">17</element>
+    <element name="Availability_Map_All_Notcommon">18</element>
+    <element name="Quality_Zero">19</element>
+    <element name="Quality_White">20</element>
+    <element name="Quality_Green">21</element>
+    <element name="Quality_Blue">22</element>
+    <element name="Quality_Purple">23</element>
+    <element name="Quality_Gold">24</element>
+    <element name="Quality_Ultraviolet">25</element>
+    <element name="Base_Common">26</element>
+    <element name="Base_Uncommon">27</element>
+    <element name="Base_Rare">28</element>
+    <element name="Base_Veryrare">29</element>
+    <element name="Base_Unique">30</element>
+    <element name="Base_Ultrarare">31</element>
   </elements>
 </enum>

@@ -145,7 +145,7 @@
     <column name="Children" type="STRUCT">
       <offset>116</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Child</redundant_name>
       <subtable external="UIGenChild" />
@@ -326,7 +326,7 @@
     <column name="Model" type="OPTIONALSTRUCT">
       <offset>232</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>ModelBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -338,7 +338,7 @@
     <column name="Filter" type="OPTIONALSTRUCT">
       <offset>236</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>FilterBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -424,39 +424,39 @@
     <column name="SortAscIndicatorTopLeftColor" type="INT">
       <offset>268</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortAscIndicatorColor" type="INT">
       <offset>268</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SortAscIndicatorTopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortAscIndicatorTopRightColor" type="INT">
       <offset>272</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortAscIndicatorBottomLeftColor" type="INT">
       <offset>276</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortAscIndicatorBottomRightColor" type="INT">
       <offset>280</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -542,39 +542,39 @@
     <column name="SortDesIndicatorTopLeftColor" type="INT">
       <offset>336</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortDesIndicatorColor" type="INT">
       <offset>336</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>SortDesIndicatorTopLeftColor</redundant_name>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortDesIndicatorTopRightColor" type="INT">
       <offset>340</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortDesIndicatorBottomLeftColor" type="INT">
       <offset>344</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="SortDesIndicatorBottomRightColor" type="INT">
       <offset>348</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -640,19 +640,19 @@
       <offset>396</offset>
       <default>3368703</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
     <column name="MoveColColor" type="INT">
       <offset>396</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>MoveColor</redundant_name>
       <default>3368703</default>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
       <format>FRIENDLYDATE</format>
     </column>
@@ -663,7 +663,7 @@
     <column name="Column" type="STRUCT">
       <offset>400</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Columns</redundant_name>
       <subtable external="UIGenChild" />
@@ -679,7 +679,7 @@
     <column name="RowTemplateExpr" type="OPTIONALSTRUCT">
       <offset>408</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>RowTemplateExprBlock</redundant_name>
       <subtable external="Expression_StructParam" />
@@ -726,7 +726,7 @@
     <column name="AllowSelect" type="OPTIONALSTRUCT">
       <offset>436</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>AllowSelectBlock</redundant_name>
       <subtable external="Expression_StructParam" />

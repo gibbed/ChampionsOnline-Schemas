@@ -69,7 +69,7 @@
     <column name="BodyColorSet" type="REFERENCE">
       <offset>64</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>BodyColorSet0</redundant_name>
       <dictionary_name>CostumeColors</dictionary_name>

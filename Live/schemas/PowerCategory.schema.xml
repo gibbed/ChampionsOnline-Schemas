@@ -34,7 +34,7 @@
     <column name="MatchTacticalMode" type="INT">
       <offset>24</offset>
       <static_define_list external="PowerTacticalMovementMode" />
-      <format_raw>13</format_raw>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="SlottingRequired" type="BIT">
       <offset>28</offset>

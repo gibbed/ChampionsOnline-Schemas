@@ -10,14 +10,14 @@
     <column name="Ent" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>
     <column name="OwnerEnt" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>
@@ -36,10 +36,10 @@
     <column name="Class" type="INT">
       <offset>24</offset>
     </column>
-    <column name="ClassName" type="STRING">
+    <column name="className" type="STRING">
       <offset>28</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="PetPermission" type="U8">

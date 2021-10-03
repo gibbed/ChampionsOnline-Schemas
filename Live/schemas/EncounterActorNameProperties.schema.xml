@@ -32,7 +32,7 @@
     <column name="Comments:" type="STRING">
       <offset>32</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>Comments</redundant_name>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="MachineMonitor_ServerToMonitor_CommandStruct">
+  <table>
+    <column name="MachineMonitor_ServerToMonitor_CommandStruct" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Command" type="INT">
+      <offset>4</offset>
+      <static_define_list external="MachineMonitor_ServerToMonitor_Command" />
+    </column>
+    <column name="Size" type="INT">
+      <offset>8</offset>
+    </column>
+    <column name="FGColor" type="U8">
+      <offset>12</offset>
+    </column>
+    <column name="BGColor" type="U8">
+      <offset>13</offset>
+    </column>
+    <column name="Flags" type="INT16">
+      <offset>14</offset>
+    </column>
+    <column name="CrypticErrorSummary" type="OPTIONALSTRUCT">
+      <offset>16</offset>
+      <subtable external="CrypticError_SummaryForMachineMonitor" />
+    </column>
+    <column name="AllocatedString" type="STRING">
+      <offset>20</offset>
+    </column>
+    <column name="nonAllocatedString" type="FIXEDSTRING">
+      <offset>24</offset>
+      <string_length>200</string_length>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

@@ -10,19 +10,19 @@
     <column name="Name" type="STRING">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="AtName" type="STRING">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="Status" type="STRING">
       <offset>8</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="PublicComment" type="STRING">
@@ -37,7 +37,7 @@
     <column name="OfficerCommentTime" type="STRING">
       <offset>24</offset>
     </column>
-    <column name="ClassName" type="STRING">
+    <column name="className" type="STRING">
       <offset>28</offset>
       <flags>
         <flag>POOL_STRING</flag>
@@ -61,7 +61,7 @@
     <column name="Location" type="STRING">
       <offset>48</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="Instance" type="INT">

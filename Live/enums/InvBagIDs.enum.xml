@@ -40,5 +40,20 @@
     <element name="SuperCritterPets">35</element>
     <element name="PetEquipBag">36</element>
     <element name="Loot">37</element>
+    <element name="Utility">38</element>
+    <element name="Head">38</element>
+    <element name="Body">39</element>
+    <element name="Defense">39</element>
+    <element name="Offense">40</element>
+    <element name="Devices">41</element>
+    <element name="Auras">42</element>
+    <element name="AurasCombat">43</element>
+    <element name="AurasStorage">44</element>
+    <element name="CostumeTransitions">45</element>
+    <element name="Network">46</element>
+    <element name="FusionStorage">47</element>
+    <element name="MissionItems">48</element>
+    <element name="Weapons">49</element>
+    <element name="Max">50</element>
   </elements>
 </enum>

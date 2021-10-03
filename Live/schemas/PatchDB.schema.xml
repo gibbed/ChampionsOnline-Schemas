@@ -20,7 +20,7 @@
     <column name="checkins" type="STRUCT">
       <offset>56</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Checkin</redundant_name>
       <subtable external="Checkin" />
@@ -32,7 +32,7 @@
     <column name="namedviews" type="STRUCT">
       <offset>60</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>View</redundant_name>
       <subtable external="NamedView" />

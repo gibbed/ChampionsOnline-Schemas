@@ -25,7 +25,7 @@
       <offset>8</offset>
       <flags>
         <flag>NO_TEXT_SAVE</flag>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="ItemSortType" />
     </column>

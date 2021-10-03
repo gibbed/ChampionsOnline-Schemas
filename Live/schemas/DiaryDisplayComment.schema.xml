@@ -16,7 +16,7 @@
     <column name="Comment" type="OPTIONALSTRUCT">
       <offset>4</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="DiaryComment" />
     </column>

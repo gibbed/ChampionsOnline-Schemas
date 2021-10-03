@@ -30,7 +30,7 @@
     <column name="Turbulance" type="F32">
       <offset>36</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
       </flags>
       <redundant_name>Turbulence</redundant_name>
       <default>1056964608</default>

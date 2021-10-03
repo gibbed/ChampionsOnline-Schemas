@@ -50,7 +50,7 @@
     <column name="eaStats" type="STRUCT">
       <offset>20</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>PERSIST</flag>
       </flags>
       <redundant_name>Stats</redundant_name>

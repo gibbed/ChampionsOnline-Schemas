@@ -83,6 +83,9 @@
       <offset>144</offset>
       <bit_offset>65540</bit_offset>
     </column>
+    <column name="MaxOverflowAllowed" type="INT">
+      <offset>148</offset>
+    </column>
     <column name="AllowOneItemNoWeightTable" type="IGNORE" />
     <column name="}" type="END" />
   </table>

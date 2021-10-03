@@ -51,7 +51,7 @@
     <column name="IsTrainer" type="U8">
       <offset>24</offset>
       <flags>
-        <flag>ALIAS</flag>
+        <flag>REDUNDANTNAME</flag>
         <flag>SERVER_ONLY</flag>
       </flags>
       <redundant_name>IsOfficerTrainer</redundant_name>

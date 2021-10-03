@@ -2,5 +2,10 @@
 <enum name="QueueCategory">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Alert_Rotator_1">1</element>
+    <element name="Alert_Rotator_2">2</element>
+    <element name="Alert_Rotator_3">3</element>
+    <element name="Alert_Custom_1">4</element>
+    <element name="Alert_Rampage_1">5</element>
   </elements>
 </enum>

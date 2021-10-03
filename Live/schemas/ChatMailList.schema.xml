@@ -23,6 +23,9 @@
     <column name="uPageSize" type="INT">
       <offset>16</offset>
     </column>
+    <column name="uTime" type="INT">
+      <offset>20</offset>
+    </column>
     <column name="}" type="END" />
   </table>
 </parser>

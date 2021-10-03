@@ -17,7 +17,7 @@
     <column name="Color" type="INT">
       <offset>4</offset>
       <static_define_list>
-        <!-- dynamic enum? -->
+        <!-- dynamic enum? 214C9D0 -->
       </static_define_list>
     </column>
     <column name="Shadow" type="INT">
